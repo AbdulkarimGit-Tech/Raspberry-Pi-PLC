@@ -4,7 +4,7 @@
   <img src="https://upload.wikimedia.org/wikipedia/en/c/cb/Raspberry_Pi_Logo.svg" alt="Raspberry Pi" width="80"/>
 </p>
 
-<h1 align="center">Hi, I'm Abdul Karim 👋<br>PLC & Industrial Automation Engineer</h1>
+<h1 align="center">Hi, I'm Abdul Karim 👋<br> Raspberry pi 5 as PLC using Codesys</h1>
 
 <p align="center">
   <strong>PLC Programmer | HMI & SCADA Developer | Control Panel Designer | Siemens & CODESYS Expert</strong><br>
@@ -13,9 +13,10 @@
 
 ---
 
-## 💼 About Me
+## 💼 Table of Contents :
 
-- 🧠 **Core Skills**: Ladder Logic (LD), Structured Text (ST), Function Block Diagram (FBD), Sequential Function Chart (SFC)  
+- ⚙️ **Hardwares**: Raspberry pi 5, SD Card, Raspberry pi TCobler, Relay Channel 5/12V, Switch, Breadboard, Jumper wires, High voltage appliance (AC/DC), Power Adapter (0-36V DC)
+- 🧠 **Installation**: Raspberry PI OS 64 into Raspberry pi 5, Codesys Runtime, Codesys into Windows 
 - ⚙️ **Tools & Platforms**: TIA Portal, WinCC, CODESYS, Factory I/O, OpenPLC, Node-RED  
 - 🔌 **Hardware Expertise**: Siemens S7-1200/S7-300, Raspberry Pi 5 (OpenPLC), VFDs, Relays, Sensors, Actuators  
 - 📊 **HMI & SCADA**: WinCC (TIA), Factory I/O, Node-RED Dashboards, Web HMI  
