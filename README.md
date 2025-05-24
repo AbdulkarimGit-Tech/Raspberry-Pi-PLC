@@ -29,9 +29,9 @@
 
 ## 📁 Featured Projects
 
-| Project | Description | Tech Stack |
-|--------|-------------|------------|
-| 🧪 **Raspberry PI 5 PLC** | PLC automation with Raspberrypi 5 and Codesys Runtime basic NO/NC switch control, LED feedback | CODESYS, Pi 5, ST + LD |
+| Project       | Description      | Tech Stack |
+|---------------|------------------|----------------|
+| [`Raspberry-Pi-PLC`](https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC)     | PLC automation with Raspberrypi 5 and Codesys Runtime basic NO/NC switch control, LED feedback | CODESYS, Pi 5, ST + LD |
 <!--| 🔄 **VFD Speed Control** | Real-time analog feedback with ramp/safety interlocks | Siemens S7-1200 + VFD |
 | 🌐 **IoT Data Logger** | MQTT-based real-time SCADA integration | Raspberry Pi + Node-RED |
 | 🎛 **HMI Panel Design** | Interactive SCADA dashboards with alarms, logs | WinCC + Factory I/O |
