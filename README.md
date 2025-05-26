@@ -42,8 +42,18 @@
 
   #Step 1:
   Download Raspbery pi imager from [here](https://downloads.raspberrypi.org/imager/imager_latest.exe),
+  
   Plug SD card into SD card reader and connect to Windows PC/Laptop,
-  Open downloaded imager and 
+  
+  Open downloaded imager and
+
+  #Step 2:
+  Download Codesys Runtime for Raspberry pi
+
+  - External Monitor
+  - From laptop (No monitor, need VNC Software)
+  - No VNC Use PUTTY
+
 ---
 
 ## 📁 Featured Projects
