@@ -4,27 +4,46 @@
   <img src="https://upload.wikimedia.org/wikipedia/en/c/cb/Raspberry_Pi_Logo.svg" alt="Raspberry Pi" width="80"/>
 </p>
 
-<h1 align="center">Hi, I'm Abdul Karim 👋<br> Raspberry pi 5 as PLC using Codesys</h1>
+<h1 align="center">Hi, I'm Abdul Karim 👋<br>Welcom to CODESYS PLC using Raspberry pi 5 </h1>
 
 <p align="center">
   <strong>PLC Programmer | HMI & SCADA Developer | Control Panel Designer | Siemens & CODESYS Expert</strong><br>
-  <i>Creating real-world automation solutions using modern industrial technologies</i>
+  <i>This Repository is to build DIY PLC for LOW Cost using Raspberry PI and CODESYS for real-world automation solutions using modern industrial technologies</i>
 </p>
 
 ---
 
 ## 💼 Table of Contents :
+ <h1 align="center">**Hardwares**</h1>
 
-- ⚙️ **Hardwares**: Raspberry pi 5, SD Card, Raspberry pi TCobler, Relay Channel 5/12V, Switch, Breadboard, Jumper wires, High voltage appliance (AC/DC), Power Adapter (0-36V DC)
-- 🧠 **Installation**: Raspberry PI OS 64 into Raspberry pi 5, Codesys Runtime, Codesys into Windows 
-- ⚙️ **Tools & Platforms**: TIA Portal, WinCC, CODESYS, Factory I/O, OpenPLC, Node-RED  
-- 🔌 **Hardware Expertise**: Siemens S7-1200/S7-300, Raspberry Pi 5 (OpenPLC), VFDs, Relays, Sensors, Actuators  
-- 📊 **HMI & SCADA**: WinCC (TIA), Factory I/O, Node-RED Dashboards, Web HMI  
-- 🔧 **Control Systems**: Industrial wiring, control panel design, safety circuit integration  
-- 📐 **CAD & Panel Design**: 2D/3D designs using FreeCAD, AutoCAD Electrical, DIN rail layout planning, Procreate, Qelectrotech
-- 🌍 **Integrations**: Ethernet/IP, Profinet, Modbus TCP/RTU
-- 🛠️ **Project Lifecycle**: Concept → Design → Simulation → Wiring → Programming → Commissioning
+- 1: Raspberry pi 5
+- 2: SD Card (Installed PI OS 64 / If not see Installation)
+- 3: Raspberry pi TCobler 
+- 4: Breadboard
+- 5: Switch
+- 6: Relay Channel 5/12V
+- 7: Jumper wires
+- 8: High voltage appliance (AC/DC)
+- 9: Power Adapter (0-36V DC)
+---
+ <h1 align="center">**Softwares**</h1>
 
+- Raspberry PI Imager
+- Raspberry PI OS 64
+- CODESYS Runtime 
+- CODESYS on Windows
+---
+ <h1 align="center">**Installation**</h1>
+ <h4>**Install Raspberry PI OS 64 into Raspberry PI 5 (RAM more than 4GB)**</h4>
+ 
+- Rasoberry PI 5
+- SD Card (atleast 64GB) 
+- USB SD Card Reader
+
+  #Step 1:
+  Download Raspbery pi imager from [here](https://downloads.raspberrypi.org/imager/imager_latest.exe),
+  Plug SD card into SD card reader and connect to Windows PC/Laptop,
+  Open downloaded imager and 
 ---
 
 ## 📁 Featured Projects
@@ -84,11 +103,9 @@
 ---
 
 ## 💡 GitHub Repositories
-<!--
-- [`Raspberry-Pi-PLC`](https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC) – Use Raspberry Pi as a soft-PLC with real I/O using Codesys
-- [`Siemens-PLC-Labs`](https://github.com/AbdulkarimGit-Tech/Siemens-PLC-Labs) – Ladder logic programs, simulation setups, and practical labs
-- [`HMI-Designs`](https://github.com/AbdulkarimGit-Tech/HMI-Designs) – HMI templates and responsive SCADA panels
-- [`Control-Panel-3D`](https://github.com/AbdulkarimGit-Tech/Control-Panel-3D) – FreeCAD-based control panel designs & terminal layout -->
+
+- [AbdulkarimGit-Tech](https://github.com/AbdulkarimGit-Tech/AbdulkarimGit-Tech) – Main Repositories
+
 
 ---
 
