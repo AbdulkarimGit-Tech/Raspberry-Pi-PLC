@@ -18,7 +18,7 @@
 
 - 1: Raspberry pi 5
 - 2: SD Card (Installed PI OS 64 / If not see Installation)
-- 3: Raspberry pi TCobler 
+- 3: Raspberry pi TCobbler 
 - 4: Breadboard
 - 5: Switch
 - 6: Relay Channel 5/12V
