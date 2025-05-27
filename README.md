@@ -78,8 +78,6 @@
   - From laptop (No monitor, need VNC Software)
   - No VNC Use PUTTY
 
----
-
 #Step 5:
 
 - Deploy CODESYS Runtime on Raspberry Pi
