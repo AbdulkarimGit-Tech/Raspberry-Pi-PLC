@@ -16,39 +16,63 @@
 ## 💼 Table of Contents :
  <h1 align="center">**Hardwares**</h1>
 
-- 1: Raspberry pi 5
-- 2: SD Card (Installed PI OS 64 / If not see Installation)
-- 3: Raspberry pi TCobbler 
-- 4: Breadboard
-- 5: Switch
-- 6: Relay Channel 5/12V
-- 7: Jumper wires
-- 8: High voltage appliance (AC/DC)
-- 9: Power Adapter (0-36V DC)
+- Raspberry Pi 5 (4GB or 8GB)
+- microSD card (16GB or higher, Class 10) #Installed PI OS 64 / If not see Installation
+- Power supply (USB-C, 5V 3A+)
+- Ethernet cable (for stable communication)
+- Breadboard
+- Jumper wires
+- Optional: GPIO-connected 12V push buttons, LED indicators (via relay/level shifter)
+- Optional: Raspberry pi TCobbler if using breadboard
+- Optional: High voltage appliances (AC/DC)
+- Optional: Power Adapter (0-36V DC)
 ---
  <h1 align="center">**Softwares**</h1>
 
-- Raspberry PI Imager
-- Raspberry PI OS 64
-- CODESYS Runtime 
-- CODESYS on Windows
+- Raspberry Pi OS (Lite or Desktop, 64-bit recommended)
+- CODESYS Development System (on your Windows PC)
+- CODESYS Control for Raspberry Pi SL (SoftPLC runtime)
+- CODESYS License (free demo or paid full)
+  
 ---
  <h1 align="center">**Installation**</h1>
  <h4>**Install Raspberry PI OS 64 into Raspberry PI 5 (RAM more than 4GB)**</h4>
  
 - Rasoberry PI 5
-- SD Card (atleast 64GB) 
+- Micro-SD Card (atleast 64GB) 
 - USB SD Card Reader
 
-  #Step 1:
-  Download Raspbery pi imager from [here](https://downloads.raspberrypi.org/imager/imager_latest.exe),
-  
-  Plug SD card into SD card reader and connect to Windows PC/Laptop,
-  
-  Open downloaded imager and
+#Step 1:
 
-  #Step 2:
-  Download Codesys Runtime for Raspberry pi
+- Download Raspbery pi [Imager](https://downloads.raspberrypi.org/imager/imager_latest.exe) for Windows
+- Flash “Raspberry Pi OS 64-bit (Lite or Desktop)” to SD card.
+- Enable SSH and Wi-Fi (if needed) using raspi-config or headless setup.
+- Boot up Pi and update packages:
+- Bash <i>Copy below code</i>
+  
+   sudo apt update && sudo apt upgrade -y
+  <!--
+  ![Raspberry Pi Codesys PLC Setup](https://yourdomain.com/path/to/image.png)
+  ![update-pi-terminal](https://user-images.githubusercontent.com/123456789/update-pi-terminal.png) -->
+
+#Step 2:
+
+- Connect Pi to same local network as your PC.
+- Find Pi’s IP using:
+- Bash <i>Copy below code</i>
+  
+  hostname -I
+- Keep this IP ready for CODESYS connection.
+
+#Step 3: 
+
+- Download [Codesys](https://store.codesys.com/en/codesys-control-for-raspberry-pi-sl.html) for Windows
+- Install CODESYS Development System (PC)
+  <i>(FREE version CODESYS only works for 2 hours continiously so make sure to restart Raspberry pi in every 2 hours interval)</i>
+  
+#Step 4:
+
+- Install CODESYS Control for Raspberry Pi SL
 
   - External Monitor
   - From laptop (No monitor, need VNC Software)
@@ -56,17 +80,80 @@
 
 ---
 
+#Step 5:
+
+- Deploy CODESYS Runtime on Raspberry Pi
+  
+  - On your Windows PC, open CODESYS Development System
+  - Go to Tools → Device Installer
+  - Install Raspberry Pi runtime:
+  - Menu: Tools → Update Raspberry Pi
+  - Enter your Pi IP address
+  - Provide username (pi) and password (raspberry or your custom)
+
+It will install runtime over SSH
+
+#Step 6:
+
+- Activate License (optional)
+  - You can run a demo version (2 hours runtime).
+  - For production: Buy license from CODESYS Store and activate via License Manager.
+
+#Step 7: 
+- Create a PLC Project in CODESYS
+  - File → New Project
+  - Choose: Standard project (Rename it)
+  - CODESYS Control for Raspberry Pi
+  - Select PLC_PRG and Ladder Logic (LD) or Structured Text (ST)
+
+- Add devices:
+  - GPIO (Digital Input/Output)
+  - Modbus, Ethernet/IP, etc. (if needed)
+  - Map GPIOs (I/O Configuration)
+  - Under “Device → Raspberry Pi GPIOs”
+- Assign I/O's:
+  - DI (Digital Input): GPIO pins to push buttons
+  - DO (Digital Output): GPIO pins to LEDs (via relay/transistor)
+#Note: Raspberry Pi uses BCM pin numbering (GPIO 17 = pin 11).
+
+- Download & Run PLC Program:
+  - Click Login → Download → Start PLC
+  - Watch Live I/O values in real time
+
+Your Raspberry Pi is now a fully running PLC using CODESYS!
+
+---
 ## 📁 Featured Projects
 
 | Project       | Description      | Tech Stack |
 |---------------|------------------|----------------|
-| [`Raspberry-Pi-PLC`](https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC)     | PLC automation with Raspberrypi 5 and Codesys Runtime basic NO/NC switch control, LED feedback | CODESYS, Pi 5, ST + LD |
+|Raspberry Pi 5 Relay Control| PLC automation with Raspberrypi 5 and Codesys Runtime basic relay control, using push button and LED feedback | CODESYS, Pi 5, LD |
+
+<h2>Bill of Materials (BOM) Example</h2>
+
+| Item                           | Description        | Qty |
+| ------------------------------ | ------------------ | --- |
+| Raspberry Pi 5 (4GB)           | Main controller    | 1   |
+| microSD (128GB)                | Storage            | 1   |
+| USB-C PSU (5V 3A) Pi Official  | Power supply       | 1   |
+| GPIO Extension Board           | Easy I/O access    | 1   |
+| 12V Relay Module (16 Channel)  | For output control | 1   |
+| 12V LED indicators             | For output test    | 2–4 |
+| 12V Push Buttons               | For input          | 2–4 |
+| 12V Level Relay                | GPIO protection    | 1   |
+| Ethernet cable / WiFi          | Communication      | 1   |
+| Bread Board, Jumper wires      | For Connection     | 1-10|
+
+
+<i>#NOTE: I have used Active High GPIO's in Raspberry PI 5 and Active Low input Relay Channel so i have inverted my Active HIGH GPIO OUT Logic to LOW in my Code</i>
 <!--| 🔄 **VFD Speed Control** | Real-time analog feedback with ramp/safety interlocks | Siemens S7-1200 + VFD |
 | 🌐 **IoT Data Logger** | MQTT-based real-time SCADA integration | Raspberry Pi + Node-RED |
 | 🎛 **HMI Panel Design** | Interactive SCADA dashboards with alarms, logs | WinCC + Factory I/O |
 | ⚡ **Smart MCC Panel** | CAD design, PLC wiring, HMI layout & full automation | FreeCAD, TIA Portal | -->
 
 ---
+
+## Code Snipit
 
 ## 🔌 Tech Stack
 
