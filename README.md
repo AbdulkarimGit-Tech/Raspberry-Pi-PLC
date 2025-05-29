@@ -154,35 +154,40 @@ Your Raspberry Pi is now a fully running PLC using CODESYS!
 
 ---
 <details>
-  <summary>Installation</summary>
+  <summary>📦 Installation</summary>
+
+  &nbsp;&nbsp;&nbsp;&nbsp;
   <details>
-    <summary>1</summary>
+    <summary>🔧 Install Raspberry Pi OS 64 on Raspberry Pi 5 (RAM ≥ 4GB)</summary>
 
-    - Raspberry Pi OS (Lite or Desktop, 64-bit recommended)
-    - CODESYS Development System (on your Windows PC)
-    - CODESYS Control for Raspberry Pi SL (SoftPLC runtime)
-    - CODESYS License (free demo or paid full)
-
+    - Raspberry Pi OS (Lite or Desktop, 64-bit recommended)  
+    - CODESYS Development System (on your Windows PC)  
+    - CODESYS Control for Raspberry Pi SL (SoftPLC runtime)  
+    - CODESYS License (free demo or paid full)  
   </details>
-    <details>
-    <summary>2</summary>
 
-    - Raspberry Pi OS (Lite or Desktop, 64-bit recommended)
-    - CODESYS Development System (on your Windows PC)
-    - CODESYS Control for Raspberry Pi SL (SoftPLC runtime)
-    - CODESYS License (free demo or paid full)
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <details>
+    <summary>📁 Step 2</summary>
 
+    - Raspberry Pi OS (Lite or Desktop, 64-bit recommended)  
+    - CODESYS Development System (on your Windows PC)  
+    - CODESYS Control for Raspberry Pi SL (SoftPLC runtime)  
+    - CODESYS License (free demo or paid full)  
   </details>
-    <details>
-    <summary>3</summary>
 
-    - Raspberry Pi OS (Lite or Desktop, 64-bit recommended)
-    - CODESYS Development System (on your Windows PC)
-    - CODESYS Control for Raspberry Pi SL (SoftPLC runtime)
-    - CODESYS License (free demo or paid full)
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <details>
+    <summary>📁 Step 3</summary>
 
+    - Raspberry Pi OS (Lite or Desktop, 64-bit recommended)  
+    - CODESYS Development System (on your Windows PC)  
+    - CODESYS Control for Raspberry Pi SL (SoftPLC runtime)  
+    - CODESYS License (free demo or paid full)  
   </details>
+
 </details>
+
 
 
 ---
