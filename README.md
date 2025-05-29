@@ -73,10 +73,12 @@
 #Step 4:
 
 - Install CODESYS Control for Raspberry Pi SL
+  
+  <h8>Which you have</h8>
 
-  - External Monitor
-  - From laptop (No monitor, need VNC Software)
-  - No VNC Use PUTTY
+  - 1st External Monitor
+  - 2nd VNC Software laptop
+  - 3rd Use [PUTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) on Windows
 
 #Step 5:
 
@@ -89,7 +91,7 @@
   - Enter your Pi IP address
   - Provide username (pi) and password (raspberry or your custom)
 
-It will install runtime over SSH
+  It will install runtime over SSH
 
 #Step 6:
 
@@ -155,6 +157,7 @@ Your Raspberry Pi is now a fully running PLC using CODESYS!
 
 ## 🔌 Tech Stack
 
+<!
 ### PLC & SCADA
 ![TIA Portal](https://img.shields.io/badge/TIA--Portal-blue?style=flat&logo=siemens)
 ![CODESYS](https://img.shields.io/badge/CODESYS-red?style=flat)
@@ -186,14 +189,6 @@ Your Raspberry Pi is now a fully running PLC using CODESYS!
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/abdulkarimmiddya)  
 [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:abdulkarimmiddya108@gmail.com) 
-
----
-
-## 📊 GitHub Stats
-
-![](https://github-readme-stats.vercel.app/api?username=AbdulkarimGit-Tech&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true)  
-![](https://github-readme-streak-stats.herokuapp.com/?user=AbdulkarimGit-Tech&theme=tokyonight&hide_border=false)  
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=AbdulkarimGit-Tech&layout=compact&theme=tokyonight&hide_border=false)
 
 ---
 
