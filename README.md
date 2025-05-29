@@ -123,6 +123,69 @@
 Your Raspberry Pi is now a fully running PLC using CODESYS!
 
 ---
+
+<details>
+  <summary>Hardwares List</summary>
+  
+- Raspberry Pi 5 (4GB or 8GB)
+- microSD card (16GB or higher, Class 10) #Installed PI OS 64 / If not see Installation
+- Power supply (USB-C, 5V 3A+)
+- Ethernet cable (for stable communication)
+- Breadboard
+- Jumper wires
+- Optional: GPIO-connected 12V push buttons, LED indicators (via relay/level shifter)
+- Optional: Raspberry pi TCobbler if using breadboard
+- Optional: High voltage appliances (AC/DC)
+- Optional: Power Adapter (0-36V DC)
+  
+</details>
+
+---
+
+<details>
+  <summary>Softwares</summary>
+  
+- Raspberry Pi OS (Lite or Desktop, 64-bit recommended)
+- CODESYS Development System (on your Windows PC)
+- CODESYS Control for Raspberry Pi SL (SoftPLC runtime)
+- CODESYS License (free demo or paid full)
+  
+</details>
+
+---
+<details>
+  <summary>Installation</summary>
+  <details>
+    <summary>1</summary>
+
+    - Raspberry Pi OS (Lite or Desktop, 64-bit recommended)
+    - CODESYS Development System (on your Windows PC)
+    - CODESYS Control for Raspberry Pi SL (SoftPLC runtime)
+    - CODESYS License (free demo or paid full)
+
+  </details>
+    <details>
+    <summary>2</summary>
+
+    - Raspberry Pi OS (Lite or Desktop, 64-bit recommended)
+    - CODESYS Development System (on your Windows PC)
+    - CODESYS Control for Raspberry Pi SL (SoftPLC runtime)
+    - CODESYS License (free demo or paid full)
+
+  </details>
+    <details>
+    <summary>3</summary>
+
+    - Raspberry Pi OS (Lite or Desktop, 64-bit recommended)
+    - CODESYS Development System (on your Windows PC)
+    - CODESYS Control for Raspberry Pi SL (SoftPLC runtime)
+    - CODESYS License (free demo or paid full)
+
+  </details>
+</details>
+
+
+---
 ## 📁 Featured Projects
 
 | Project       | Description      | Tech Stack |
