@@ -4,6 +4,14 @@
   <img src="https://upload.wikimedia.org/wikipedia/en/c/cb/Raspberry_Pi_Logo.svg" alt="Raspberry Pi" width="80"/>
 </p>
 
+<p align="center">
+  <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/3c37a7482b9af44548739b1cdac0cb1dea3d274d/PI_Imager.png" alt="Step 1" width="250"/>
+  <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/3c37a7482b9af44548739b1cdac0cb1dea3d274d/PI_Choose_Device.png" alt="Step 2" width="250"/>
+  <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/3c37a7482b9af44548739b1cdac0cb1dea3d274d/PI_Choose_OS.png" alt="Step 3" width="250"/>
+  <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/3c37a7482b9af44548739b1cdac0cb1dea3d274d/PI_Choose_Storage.png" alt="Step 3" width="250"/>
+</p>
+
+
 <h1 align="center">Hi, I'm Abdul Karim 👋<br>Welcom to CODESYS PLC using Raspberry pi 5 </h1>
 
 <p align="center">
