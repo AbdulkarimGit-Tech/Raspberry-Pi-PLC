@@ -57,7 +57,6 @@
     - Rasoberry PI 5
     - Micro-SD Card (atleast 64GB) 
     - USB SD Card Reader 
-
   <!--
   -->
 
@@ -65,9 +64,20 @@
     
     - Open PI Imager
       - Flash “Raspberry Pi OS 64-bit (Lite or Desktop)” to SD card and config addistional settings before FLASH.
-      - Remove SD Card 
-    - Open PUTTY
-      - Login with raspberrypi.local -> Click OK
+      
+![Raspberry Pi Imager](https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/430b50794f33a102b278629e9e3103b0e06d6991/PI_Imager.png)
+![Raspberry Pi Device](https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/430b50794f33a102b278629e9e3103b0e06d6991/PI_Choose_Device.png)
+![Raspberry Pi OS](https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/430b50794f33a102b278629e9e3103b0e06d6991/PI_Choose_OS.png)
+![Raspberry Pi Storage](https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/430b50794f33a102b278629e9e3103b0e06d6991/PI_Choose_Storage.png)
+![Raspberry Pi Settings](https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/430b50794f33a102b278629e9e3103b0e06d6991/PI_Choose_Next.png)
+![Raspberry Pi OS_Config](hhttps://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/430b50794f33a102b278629e9e3103b0e06d6991/PI_OS_Config.png)
+![Raspberry Pi Enable_SSH](https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/430b50794f33a102b278629e9e3103b0e06d6991/PI_Enable_SSH.png)
+![Raspberry Pi OS_Writing](https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/430b50794f33a102b278629e9e3103b0e06d6991/PI_OS_Writing.png)
+![Raspberry Pi OS_Verifying](https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/430b50794f33a102b278629e9e3103b0e06d6991/PI_OS_Verifying.png)
+      
+  <h4>Remove SD Card and insert into pi 5<br> Open PUTTY</h4>
+      
+      Login with raspberrypi.local -> Click OK
         - User: Your ID
         - Password: Your password
         
