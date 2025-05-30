@@ -1,4 +1,4 @@
-/<!-- GitHub Profile README for a Professional PLC & Automation Engineer -->
+<!-- GitHub Profile README for a Professional PLC & Automation Engineer -->
 
 <p align="center">
   <img src="https://upload.wikimedia.org/wikipedia/en/c/cb/Raspberry_Pi_Logo.svg" alt="Raspberry Pi" width="80"/>
@@ -53,10 +53,10 @@
 
   &nbsp;&nbsp;&nbsp;&nbsp;
   <details>
-    <summary>Raspberry pi Setup</summary>
+    <summary>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Raspberry pi Setup</summary>
       &nbsp;&nbsp;&nbsp;&nbsp;
       <details>
-        <summary>Install Raspberry PI OS 64 into Raspberry PI 5 (RAM more than 4GB)</summary>
+        <summary>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Install Raspberry PI OS 64 into Raspberry PI 5 (RAM more than 4GB)</summary>
     
       <h2 align="center">Install Raspberry PI OS 64 into Raspberry PI 5 (RAM more than 4GB)</h2>
     
@@ -115,11 +115,13 @@
     </td>
   </tr>
 </table>
-
+<h2 align="center">Once finshed Remove SD Card and insert into pi 5<br> ↓ <br/>PUTTY Setup</h2>
 </details>
-      
-  <h2 align="center">Once finshed Remove SD Card and insert into pi 5<br> ↓ <br/>PUTTY Setup</h2>
-      
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+<details>
+        <summary>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PUTTY Setup</summary>
+        
       Login with raspberrypi.local -> Click OK
         - Login as: Your pi ID
         - Password: Your pi password
@@ -165,9 +167,13 @@
 </p>
 
 <h2>Type --> "sudo reboot"</h2>
+<h2 align="center">Once finshed VNC<br> ↓ <br/>Open VNC</h2>
+</details>
 
-<h2 align="center">Open VNC</h2>
-
+&nbsp;&nbsp;&nbsp;&nbsp;
+<details>
+        <summary>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Open VNC and connect with Raspbery pi</summary>
+  
       Login with raspberrypi.local -> Click Enter
         - User: Your pi ID
         - Password: Your pi password
@@ -181,12 +187,12 @@
 </p>
 
 # Raspberry Pi is ready to use
- 
-  </details>
+   </details>
+ </details>
 
   &nbsp;&nbsp;&nbsp;&nbsp;
   <details>
-    <summary>Install CODESYS Control Runtime on Raspberry pi</summary>
+    <summary>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Install CODESYS Control Runtime on Raspberry pi</summary>
 
   # Install CODESYS Control Runtime from Windows
     
