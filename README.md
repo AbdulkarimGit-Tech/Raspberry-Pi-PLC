@@ -70,7 +70,7 @@
 ![Raspberry Pi OS](https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/430b50794f33a102b278629e9e3103b0e06d6991/PI_Choose_OS.png)
 ![Raspberry Pi Storage](https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/430b50794f33a102b278629e9e3103b0e06d6991/PI_Choose_Storage.png)
 ![Raspberry Pi Settings](https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/430b50794f33a102b278629e9e3103b0e06d6991/PI_Choose_Next.png)
-![Raspberry Pi OS_Config](hhttps://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/430b50794f33a102b278629e9e3103b0e06d6991/PI_OS_Config.png)
+![Raspberry Pi OS_Config](https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/430b50794f33a102b278629e9e3103b0e06d6991/PI_OS_Config.png)
 ![Raspberry Pi Enable_SSH](https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/430b50794f33a102b278629e9e3103b0e06d6991/PI_Enable_SSH.png)
 ![Raspberry Pi OS_Writing](https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/430b50794f33a102b278629e9e3103b0e06d6991/PI_OS_Writing.png)
 ![Raspberry Pi OS_Verifying](https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/430b50794f33a102b278629e9e3103b0e06d6991/PI_OS_Verifying.png)
@@ -80,7 +80,10 @@
       Login with raspberrypi.local -> Click OK
         - User: Your ID
         - Password: Your password
-        
+
+![Raspberry Pi PUTTY](https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/dce769b17743514432fe80db7040ff256de3c3a5/PI_PUTTY_Config_OS.png)
+![Raspberry Pi Logedin](https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/dce769b17743514432fe80db7040ff256de3c3a5/PI_Login_Successfully.png)
+
         # After successfully loged in perform below list code
         
           - ifconfig or hostname -I (Mark and keep the IP of your PI)
