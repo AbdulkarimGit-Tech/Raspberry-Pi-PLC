@@ -111,10 +111,10 @@
   </tr>
 </table>
       
-  <h4>Remove SD Card and insert into pi 5<br> Open PUTTY</h4>
+  <h4 align="center">Remove SD Card and insert into pi 5<br> ↓ <br/>Open PUTTY</h4>
       
       Login with raspberrypi.local -> Click OK
-        - User: Your ID
+        - Login as: Your ID
         - Password: Your password
 <p align="center">
   <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/dce769b17743514432fe80db7040ff256de3c3a5/PI_PUTTY_Config_OS.png" alt="PUTTY" width="300"/>
