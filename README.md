@@ -259,21 +259,21 @@
       <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/3c37a7482b9af44548739b1cdac0cb1dea3d274d/PI_Choose_Storage.png" alt="PI_Choose_Storage" width="900"/>
     </td>
     <td align="center">
-      <sub>Edit Settings</sub><br/>&nbsp;
+      <sub>After successfully Insatllation Come back to Starting section--> Run "cd"</sub><br/>&nbsp;
       <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/430b50794f33a102b278629e9e3103b0e06d6991/PI_Choose_Next.png" alt="PI_Choose_Next" width="900"/>
     </td>
     <td align="center">
-      <sub>Configure OS</sub><br/>&nbsp;
+      <sub>Check if PLC Running or Not - Run the code--> "sudo systemctl status codesyscontrol"</sub><br/>&nbsp;
       <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/430b50794f33a102b278629e9e3103b0e06d6991/PI_OS_Config.png" alt="PI_OS_Config" width="900" height="220"/>
     </td>
   </tr>
    <tr>
     <td align="center">
-      <sub>Enable SSH</sub><br/>&nbsp;
+      <sub>If Not Running, Start manualy run --> "sudo systemctl start codesyscontrol"</sub><br/>&nbsp;
       <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/430b50794f33a102b278629e9e3103b0e06d6991/PI_Enable_SSH.png" alt="PI_Enable_SSH" width="900" height="220"/>
     </td>
     <td align="center">
-      <sub>OS Writing</sub><br/>&nbsp;
+      <sub>To Verify again Run --> "sudo systemctl status codesyscontrol" (It will show Active)</sub><br/>&nbsp;
       <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/430b50794f33a102b278629e9e3103b0e06d6991/PI_OS_Writing.png" alt="PI_OS_Writing" width="900"/>
     </td>
     <td align="center">
