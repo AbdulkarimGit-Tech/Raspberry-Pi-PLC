@@ -73,65 +73,43 @@
       <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/3c37a7482b9af44548739b1cdac0cb1dea3d274d/PI_Imager.png" alt="PI_Imager" width="900"/>
     </td>
     <td align="center">
-      <sub>PI_Choose_Device</sub><br/>
+      <sub>Choose Device</sub><br/>
       <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/3c37a7482b9af44548739b1cdac0cb1dea3d274d/PI_Choose_Device.png" alt="PI_Choose_Device" width="900"/>
     </td>
     <td align="center">
-      <sub>PI_Choose_OS</sub><br/>
+      <sub>Choose OS</sub><br/>
       <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/3c37a7482b9af44548739b1cdac0cb1dea3d274d/PI_Choose_OS.png" alt="PI_Choose_OS" width="900"/>
     </td>
   </tr>
    <tr>
     <td align="center">
-      <sub>PI_Choose_Storage</sub><br/>
+      <sub>Select Storage</sub><br/>
       <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/3c37a7482b9af44548739b1cdac0cb1dea3d274d/PI_Choose_Storage.png" alt="PI_Choose_Storage" width="900"/>
     </td>
     <td align="center">
-      <sub>PI_Settings</sub><br/>
+      <sub>Edit Settings</sub><br/>
       <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/430b50794f33a102b278629e9e3103b0e06d6991/PI_Choose_Next.png" alt="PI_Choose_Next" width="900"/>
     </td>
     <td align="center">
-      <sub>PI_OS_Config</sub><br/>
-      <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/430b50794f33a102b278629e9e3103b0e06d6991/PI_OS_Config.png" alt="PI_OS_Config" width="900" height="250"/>
+      <sub>Configure OS</sub><br/>
+      <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/430b50794f33a102b278629e9e3103b0e06d6991/PI_OS_Config.png" alt="PI_OS_Config" width="900" height="220"/>
     </td>
   </tr>
    <tr>
     <td align="center">
-      <sub>PI_Enable_SSH</sub><br/>
-      <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/430b50794f33a102b278629e9e3103b0e06d6991/PI_Enable_SSH.png" alt="PI_Enable_SSH" width="900" height="250"/>
+      <sub>Enable SSH</sub><br/>
+      <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/430b50794f33a102b278629e9e3103b0e06d6991/PI_Enable_SSH.png" alt="PI_Enable_SSH" width="900" height="220"/>
     </td>
     <td align="center">
-      <sub>PI_OS_Writing</sub><br/>
+      <sub>OS Writing</sub><br/>
       <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/430b50794f33a102b278629e9e3103b0e06d6991/PI_OS_Writing.png" alt="PI_OS_Writing" width="900"/>
     </td>
     <td align="center">
-      <sub>PI_OS_Verifying</sub><br/>
+      <sub>OS Verifying</sub><br/>
       <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/430b50794f33a102b278629e9e3103b0e06d6991/PI_OS_Verifying.png" alt="PI_OS_Verifying" width="900"/>
     </td>
   </tr>
 </table>
-
-
-
-<p align="center"><strong>Open PI Imager</strong><br/>
-  
-  <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/3c37a7482b9af44548739b1cdac0cb1dea3d274d/PI_Imager.png" alt="PI_Imager" width="250"/>
-  
-  <strong align="center">Choose Device</strong><br/>
-  
-  <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/3c37a7482b9af44548739b1cdac0cb1dea3d274d/PI_Choose_Device.png" alt="PI_Choose_Device" width="250"/>
-  
-  <strong>Choose Device</strong><br/>
-  
-  <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/3c37a7482b9af44548739b1cdac0cb1dea3d274d/PI_Choose_OS.png" alt="PI_Choose_OS" width="250"/>
-  <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/3c37a7482b9af44548739b1cdac0cb1dea3d274d/PI_Choose_Storage.png" alt="PI_Choose_Storage" width="250"/>
-  <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/430b50794f33a102b278629e9e3103b0e06d6991/PI_Choose_Next.png" alt="PI_Choose_Next" width="250"/>
-  <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/430b50794f33a102b278629e9e3103b0e06d6991/PI_OS_Config.png" alt="PI_OS_Config" width="250" height="177"/>
-  <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/430b50794f33a102b278629e9e3103b0e06d6991/PI_Enable_SSH.png" alt="PI_Enable_SSH" width="250" height="177"/>
-  <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/430b50794f33a102b278629e9e3103b0e06d6991/PI_OS_Writing.png" alt="PI_OS_Writing" width="250"/>
-  <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/430b50794f33a102b278629e9e3103b0e06d6991/PI_OS_Verifying.png" alt="PI_OS_Verifying" width="250"/>
-</p>
-
       
   <h4>Remove SD Card and insert into pi 5<br> Open PUTTY</h4>
       
