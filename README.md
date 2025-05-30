@@ -138,22 +138,26 @@
 
         --> Bash Code
           - sudo raspi-config
-          - Click Down Arow key on keyboad to select Interface Options 
-          - Use Right Arow key on keyboard to select "SELECT" Click Enter
-          - Use Down Arow key on keyboard to select VNC and use Right Arow key to Select the option click enter and enter again
+          - Click Down Arrow key on keyboad to select Interface Options 
+          - Use Right Arrow key on keyboard to select "SELECT" Click Enter
+          - Use Down Arrow key on keyboard to select VNC and use Right Arrow key to Select the option click enter and enter again
           - To finsh the setup use Right arrow key 2 times and click enter
           - Now Reboot raspberry pi to apply the settings change
           - Use Bash Comand > reboot
 
-<p align="center">
-  <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/e859807befaf7f13d85b2eaed705f900e2494948/PI_VNC_Config_1.png" alt="VNC" width="900" />
-  <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/e859807befaf7f13d85b2eaed705f900e2494948/PI_VNC_Config_2.png" alt="VNC_Config" width="900" />
-  <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/e859807befaf7f13d85b2eaed705f900e2494948/PI_VNC_Enable.png" alt="VNC_Enable" width="900" />
+<p>
+    <sub>Type "sudo raspi-config"<br>Click Down Arrow key on keyboad to select "Interface Options"<br>Use Right Arrow key on keyboard to select "SELECT" Click Enter</sub><br>&nbsp;
+    <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/e859807befaf7f13d85b2eaed705f900e2494948/PI_VNC_Config_1.png" alt="VNC"/>
 </p>
-
-![VNC](https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/e859807befaf7f13d85b2eaed705f900e2494948/PI_VNC_Config_1.png)
-![VNC](https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/e859807befaf7f13d85b2eaed705f900e2494948/PI_VNC_Config_2.png)
-![VNC](https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/e859807befaf7f13d85b2eaed705f900e2494948/PI_VNC_Enable.png)
+<p>
+    <sub>Use Down Arrow key on keyboard to select VNC<br>Use Right Arrow key to Select the option click enter and enter again</sub><br>&nbsp;
+    <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/e859807befaf7f13d85b2eaed705f900e2494948/PI_VNC_Config_2.png" alt="VNC_Config"/>
+</p>
+<p>
+    <sub>Use Right Arrow key to Select "YES" and Enter</sub><br>&nbsp;
+    <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/e859807befaf7f13d85b2eaed705f900e2494948/PI_VNC_Enable.png" alt="VNC_Enable"/>
+    <sub>To finsh the setup use Right arrow key 2 times select Finish and click Enter on keyboard</sub><br/>
+</p>
 
   # Raspberry Pi is ready to use
  
