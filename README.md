@@ -111,7 +111,7 @@
   </tr>
 </table>
       
-  <h4 align="center">Remove SD Card and insert into pi 5<br> ↓ <br/>Open PUTTY</h4>
+  <h4 align="center">Once finshed Remove SD Card and insert into pi 5<br> ↓ <br/>Open PUTTY</h4>
       
       Login with raspberrypi.local -> Click OK
         - Login as: Your pi ID
