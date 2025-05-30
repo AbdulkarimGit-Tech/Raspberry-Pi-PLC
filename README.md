@@ -1,4 +1,4 @@
-<!-- GitHub Profile README for a Professional PLC & Automation Engineer -->
+/<!-- GitHub Profile README for a Professional PLC & Automation Engineer -->
 
 <p align="center">
   <img src="https://upload.wikimedia.org/wikipedia/en/c/cb/Raspberry_Pi_Logo.svg" alt="Raspberry Pi" width="80"/>
@@ -53,8 +53,10 @@
 
   &nbsp;&nbsp;&nbsp;&nbsp;
   <details>
-    <summary>Install Raspberry PI OS 64 into Raspberry PI 5 (RAM more than 4GB)</summary>
-
+    <summary>Raspberry pi Setup</summary>
+    
+<h4 align="center">Install Raspberry PI OS 64 into Raspberry PI 5 (RAM more than 4GB)</h4>
+    
     - Rasoberry PI 5
     - Micro-SD Card (atleast 64GB) 
     - USB SD Card Reader 
@@ -111,7 +113,7 @@
   </tr>
 </table>
       
-  <h4 align="center">Once finshed Remove SD Card and insert into pi 5<br> ↓ <br/>Open PUTTY</h4>
+  <h4 align="center">Once finshed Remove SD Card and insert into pi 5<br> ↓ <br/>PUTTY Setup</h4>
       
       Login with raspberrypi.local -> Click OK
         - Login as: Your pi ID
@@ -167,7 +169,21 @@
     <sub>--> To finsh the setup use Right arrow key 2 times select Finish and click Enter on keyboard</sub><br/>
 </p>
 
-  # Raspberry Pi is ready to use
+<h4 align="center">Open VNC</h4>
+
+      Login with raspberrypi.local -> Click Enter
+        - User: Your pi ID
+        - Password: Your pi password
+        - Open Terminal
+        - Update Pi
+        - sudo shutdown now (To Shutdown Pi)
+
+<p>
+    <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/c06ca68b4b3fd723cd8503cb831a8cc99380f5cb/PI_VNC_Connect_ID_Pasw.png" alt="VNC_Connect" width="700" height="400"/><br>
+    <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/c06ca68b4b3fd723cd8503cb831a8cc99380f5cb/PI_ls.png" alt="VNC_pi_Terminal" width="700" height="400"/><br>
+</p>
+
+# Raspberry Pi is ready to use
  
   </details>
 
