@@ -69,43 +69,43 @@
 <table>
   <tr>
     <td align="center">
-      <sub>Open PI Imager</sub><br/>
+      <sub>Open PI Imager</sub><br/>&nbsp;
       <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/3c37a7482b9af44548739b1cdac0cb1dea3d274d/PI_Imager.png" alt="PI_Imager" width="900"/>
     </td>
     <td align="center">
-      <sub>Choose Device</sub><br/>
+      <sub>Choose Device</sub><br/>&nbsp;
       <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/3c37a7482b9af44548739b1cdac0cb1dea3d274d/PI_Choose_Device.png" alt="PI_Choose_Device" width="900"/>
     </td>
     <td align="center">
-      <sub>Choose OS</sub><br/>
+      <sub>Choose OS</sub><br/>&nbsp;
       <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/3c37a7482b9af44548739b1cdac0cb1dea3d274d/PI_Choose_OS.png" alt="PI_Choose_OS" width="900"/>
     </td>
   </tr>
    <tr>
     <td align="center">
-      <sub>Select Storage</sub><br/>
+      <sub>Select Storage</sub><br/>&nbsp;
       <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/3c37a7482b9af44548739b1cdac0cb1dea3d274d/PI_Choose_Storage.png" alt="PI_Choose_Storage" width="900"/>
     </td>
     <td align="center">
-      <sub>Edit Settings</sub><br/>
+      <sub>Edit Settings</sub><br/>&nbsp;
       <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/430b50794f33a102b278629e9e3103b0e06d6991/PI_Choose_Next.png" alt="PI_Choose_Next" width="900"/>
     </td>
     <td align="center">
-      <sub>Configure OS</sub><br/>
+      <sub>Configure OS</sub><br/>&nbsp;
       <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/430b50794f33a102b278629e9e3103b0e06d6991/PI_OS_Config.png" alt="PI_OS_Config" width="900" height="220"/>
     </td>
   </tr>
    <tr>
     <td align="center">
-      <sub>Enable SSH</sub><br/>
+      <sub>Enable SSH</sub><br/>&nbsp;
       <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/430b50794f33a102b278629e9e3103b0e06d6991/PI_Enable_SSH.png" alt="PI_Enable_SSH" width="900" height="220"/>
     </td>
     <td align="center">
-      <sub>OS Writing</sub><br/>
+      <sub>OS Writing</sub><br/>&nbsp;
       <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/430b50794f33a102b278629e9e3103b0e06d6991/PI_OS_Writing.png" alt="PI_OS_Writing" width="900"/>
     </td>
     <td align="center">
-      <sub>OS Verifying</sub><br/>
+      <sub>OS Verifying</sub><br/>&nbsp;
       <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/430b50794f33a102b278629e9e3103b0e06d6991/PI_OS_Verifying.png" alt="PI_OS_Verifying" width="900"/>
     </td>
   </tr>
@@ -119,11 +119,11 @@
 <table>
   <tr>
     <td align="center">
-      <sub>PUTTY Login</sub><br/>
+      <sub>PUTTY Login</sub><br/>&nbsp;
       <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/dce769b17743514432fe80db7040ff256de3c3a5/PI_PUTTY_Config_OS.png" alt="PI_OS_Writing" width="900" height="400"/>
     </td>
     <td align="center">
-      <sub>PUTTY pi Login</sub><br/>
+      <sub>PUTTY pi Login</sub><br/>&nbsp;
       <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/dce769b17743514432fe80db7040ff256de3c3a5/PI_Login_Successfully.png" alt="PI_OS_Verifying" width="900" height="400"/>
     </td>
   </tr>
@@ -149,21 +149,21 @@
 
 <p>
     <sub>--> Type "sudo raspi-config"<br>- Click Down Arrow key on keyboad to select "Interface Options"<br>- Use Right Arrow key on keyboard to select "SELECT" Click Enter<br> ↓</sub><br>&nbsp;
-    <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/e859807befaf7f13d85b2eaed705f900e2494948/PI_VNC_Config_1.png" alt="VNC"/>
+    <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/e859807befaf7f13d85b2eaed705f900e2494948/PI_VNC_Config_1.png" alt="VNC" width="700" height="400"/>
 </p>
 
 ---
 
 <p>
     <sub>- Use Down Arrow key on keyboard to select VNC<br>- Use Right Arrow key to Select the option click enter and enter again <br>↓</sub><br>&nbsp;
-    <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/e859807befaf7f13d85b2eaed705f900e2494948/PI_VNC_Config_2.png" alt="VNC_Config"/>
+    <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/e859807befaf7f13d85b2eaed705f900e2494948/PI_VNC_Config_2.png" alt="VNC_Config" width="700" height="400"/>
 </p>
 
 ---
 
 <p>
     <sub>- Use Right Arrow key to Select "YES" and Enter <br>↓</sub><br>&nbsp;
-    <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/e859807befaf7f13d85b2eaed705f900e2494948/PI_VNC_Enable.png" alt="VNC_Enable"/>
+    <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/e859807befaf7f13d85b2eaed705f900e2494948/PI_VNC_Enable.png" alt="VNC_Enable" width="700" height="400"/><br>
     <sub>--> To finsh the setup use Right arrow key 2 times select Finish and click Enter on keyboard</sub><br/>
 </p>
 
