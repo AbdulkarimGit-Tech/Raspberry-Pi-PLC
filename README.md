@@ -114,12 +114,20 @@
   <h4 align="center">Remove SD Card and insert into pi 5<br> ↓ <br/>Open PUTTY</h4>
       
       Login with raspberrypi.local -> Click OK
-        - Login as: Your ID
-        - Password: Your password
-<p align="center">
-  <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/dce769b17743514432fe80db7040ff256de3c3a5/PI_PUTTY_Config_OS.png" alt="PUTTY" width="300"/>
-  <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/dce769b17743514432fe80db7040ff256de3c3a5/PI_Login_Successfully.png" alt="PUTTY_Logedin" width="400" height="292"/>
-</p>
+        - Login as: Your pi ID
+        - Password: Your pi password
+<table>
+  <tr>
+    <td align="center">
+      <sub>PUTTY Login</sub><br/>
+      <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/dce769b17743514432fe80db7040ff256de3c3a5/PI_PUTTY_Config_OS.png" alt="PI_OS_Writing" width="900" height="400"/>
+    </td>
+    <td align="center">
+      <sub>PUTTY pi Login</sub><br/>
+      <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/dce769b17743514432fe80db7040ff256de3c3a5/PI_Login_Successfully.png" alt="PI_OS_Verifying" width="900" height="400"/>
+    </td>
+  </tr>
+</table>
 
         # After successfully loged in perform below list code
         
