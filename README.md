@@ -233,7 +233,7 @@
 
   
   # Follow Below Step to Install and Run CODESYS Runtime Successfully
-        Open PuTTY:
+        Open PuTTY / VNC:
           - Enter ip of your Raspberry Pi
           - Login:
             - Username: Your ID
