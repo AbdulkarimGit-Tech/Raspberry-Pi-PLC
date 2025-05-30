@@ -145,14 +145,22 @@
           - Now Reboot raspberry pi to apply the settings change
           - Use Bash Comand > reboot
 
+---
+
 <p>
     <sub>--> Type "sudo raspi-config"<br>- Click Down Arrow key on keyboad to select "Interface Options"<br>- Use Right Arrow key on keyboard to select "SELECT" Click Enter<br> ↓</sub><br>&nbsp;
     <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/e859807befaf7f13d85b2eaed705f900e2494948/PI_VNC_Config_1.png" alt="VNC"/>
 </p>
+
+---
+
 <p>
     <sub>- Use Down Arrow key on keyboard to select VNC<br>- Use Right Arrow key to Select the option click enter and enter again <br>↓</sub><br>&nbsp;
     <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/e859807befaf7f13d85b2eaed705f900e2494948/PI_VNC_Config_2.png" alt="VNC_Config"/>
 </p>
+
+---
+
 <p>
     <sub>- Use Right Arrow key to Select "YES" and Enter <br>↓</sub><br>&nbsp;
     <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/e859807befaf7f13d85b2eaed705f900e2494948/PI_VNC_Enable.png" alt="VNC_Enable"/>
