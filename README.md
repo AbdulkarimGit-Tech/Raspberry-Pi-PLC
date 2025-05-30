@@ -121,10 +121,11 @@
 &nbsp;&nbsp;&nbsp;&nbsp;
 <details>
         <summary>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PUTTY Setup</summary>
-        
-      Login with raspberrypi.local -> Click OK
-        - Login as: Your pi ID
-        - Password: Your pi password
+
+      Once PI OS 64/32 Insatlled on raspberry pi 5
+        Login with raspberrypi.local -> Click OK
+          - Login as: Your pi ID
+          - Password: Your pi password
 <table>
   <tr>
     <td align="center">
@@ -138,13 +139,17 @@
   </tr>
 </table>
 
-        # After successfully loged in perform below list code
+        # After successfully logged in perform below list code
         
-          - ifconfig or hostname -I (Mark and keep the IP of your PI)
+          - ifconfig or hostname -I (Mark and keep the IP of your PI similar like 192.168.190.89)
           - sudo apt update && sudo apt upgrade -y   
  
         # To Enable VNC Check below Code snippet
-<h2>Type --> sudo raspi-config</h2>
+
+<p>
+    <sub>sudo raspi-config↓</sub><br>&nbsp;
+    <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/17e84fd27608e97cc2cb6bd735bf20c9840d4525/PI_PUTTY_VNC_Config.png" alt="VNC_Config" width="700" height="400"/>
+</p>
 
 <p>
     <sub>Click Down Arrow key on keyboad to select "Interface Options"<br>- Use Right Arrow key on keyboard to select "SELECT" Click Enter<br> ↓</sub><br>&nbsp;
@@ -172,8 +177,9 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;
 <details>
-        <summary>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Open VNC and connect with Raspbery pi</summary>
-  
+        <summary>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Connect VNC with Raspbery pi</summary>
+
+      Open VNC on Windows
       Login with raspberrypi.local -> Click Enter
         - User: Your pi ID
         - Password: Your pi password
