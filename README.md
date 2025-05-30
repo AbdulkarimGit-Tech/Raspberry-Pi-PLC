@@ -67,15 +67,15 @@
       - Flash “Raspberry Pi OS 64-bit (Lite or Desktop)” to SD card and config addistional settings before FLASH.
 
 <p align="center">
-  <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/3c37a7482b9af44548739b1cdac0cb1dea3d274d/PI_Imager.png" alt="Step 1" width="250"/>
-  <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/3c37a7482b9af44548739b1cdac0cb1dea3d274d/PI_Choose_Device.png" alt="Step 2" width="250"/>
-  <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/3c37a7482b9af44548739b1cdac0cb1dea3d274d/PI_Choose_OS.png" alt="Step 3" width="250"/>
-  <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/3c37a7482b9af44548739b1cdac0cb1dea3d274d/PI_Choose_Storage.png" alt="Step 3" width="250"/>
-  <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/430b50794f33a102b278629e9e3103b0e06d6991/PI_Choose_Next.png" alt="Step 1" width="250"/>
-  <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/430b50794f33a102b278629e9e3103b0e06d6991/PI_OS_Config.png" alt="Step 2" width="250"/>
-  <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/430b50794f33a102b278629e9e3103b0e06d6991/PI_Enable_SSH.png" alt="Step 3" width="250"/>
-  <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/430b50794f33a102b278629e9e3103b0e06d6991/PI_OS_Writing.png" alt="Step 3" width="250"/>
-  <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/430b50794f33a102b278629e9e3103b0e06d6991/PI_OS_Verifying.png" alt="Step 3" width="250"/>
+  <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/3c37a7482b9af44548739b1cdac0cb1dea3d274d/PI_Imager.png" alt="PI_Imager" width="250"/>
+  <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/3c37a7482b9af44548739b1cdac0cb1dea3d274d/PI_Choose_Device.png" alt="PI_Choose_Device" width="250"/>
+  <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/3c37a7482b9af44548739b1cdac0cb1dea3d274d/PI_Choose_OS.png" alt="PI_Choose_OS" width="250"/>
+  <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/3c37a7482b9af44548739b1cdac0cb1dea3d274d/PI_Choose_Storage.png" alt="PI_Choose_Storage" width="250"/>
+  <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/430b50794f33a102b278629e9e3103b0e06d6991/PI_Choose_Next.png" alt="PI_Choose_Next" width="250"/>
+  <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/430b50794f33a102b278629e9e3103b0e06d6991/PI_OS_Config.png" alt="PI_OS_Config" width="250"/>
+  <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/430b50794f33a102b278629e9e3103b0e06d6991/PI_Enable_SSH.png" alt="PI_Enable_SSH" width="250"/>
+  <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/430b50794f33a102b278629e9e3103b0e06d6991/PI_OS_Writing.png" alt="PI_OS_Writing" width="250"/>
+  <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/430b50794f33a102b278629e9e3103b0e06d6991/PI_OS_Verifying.png" alt="PI_OS_Verifying" width="250"/>
 </p>
 
       
@@ -84,9 +84,10 @@
       Login with raspberrypi.local -> Click OK
         - User: Your ID
         - Password: Your password
-
-![Raspberry Pi PUTTY](https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/dce769b17743514432fe80db7040ff256de3c3a5/PI_PUTTY_Config_OS.png)
-![Raspberry Pi Logedin](https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/dce769b17743514432fe80db7040ff256de3c3a5/PI_Login_Successfully.png)
+<p align="center">
+  <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/dce769b17743514432fe80db7040ff256de3c3a5/PI_PUTTY_Config_OS.png" alt="PUTTY" width="250"/>
+  <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/dce769b17743514432fe80db7040ff256de3c3a5/PI_Login_Successfully.png" alt="PUTTY_Logedin" width="250"/>
+</p>
 
         # After successfully loged in perform below list code
         
@@ -104,9 +105,11 @@
           - Now Reboot raspberry pi to apply the settings change
           - Use Bash Comand > reboot
 
-![Raspberry Pi VNC](https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/e859807befaf7f13d85b2eaed705f900e2494948/PI_VNC_Config_1.png)
-![Raspberry Pi VNC_Config](https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/e859807befaf7f13d85b2eaed705f900e2494948/PI_VNC_Config_2.png)
-![Raspberry Pi VNC_Enable_YES](https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/e859807befaf7f13d85b2eaed705f900e2494948/PI_VNC_Enable.png)
+<p align="center">
+  <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/e859807befaf7f13d85b2eaed705f900e2494948/PI_VNC_Config_1.png" alt="VNC" width="250"/>
+  <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/e859807befaf7f13d85b2eaed705f900e2494948/PI_VNC_Config_2.png" alt="VNC_Config" width="250"/>
+  <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/e859807befaf7f13d85b2eaed705f900e2494948/PI_VNC_Enable.png" alt="VNC_Enable" width="250"/>
+</p>
 
   # Raspberry Pi is ready to use
  
