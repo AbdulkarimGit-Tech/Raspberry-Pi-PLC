@@ -54,8 +54,11 @@
   &nbsp;&nbsp;&nbsp;&nbsp;
   <details>
     <summary>Raspberry pi Setup</summary>
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      <details>
+        <summary>Install Raspberry PI OS 64 into Raspberry PI 5 (RAM more than 4GB)</summary>
     
-<h4 align="center">Install Raspberry PI OS 64 into Raspberry PI 5 (RAM more than 4GB)</h4>
+      <h2 align="center">Install Raspberry PI OS 64 into Raspberry PI 5 (RAM more than 4GB)</h2>
     
     - Rasoberry PI 5
     - Micro-SD Card (atleast 64GB) 
@@ -112,8 +115,10 @@
     </td>
   </tr>
 </table>
+
+</details>
       
-  <h4 align="center">Once finshed Remove SD Card and insert into pi 5<br> ↓ <br/>PUTTY Setup</h4>
+  <h2 align="center">Once finshed Remove SD Card and insert into pi 5<br> ↓ <br/>PUTTY Setup</h2>
       
       Login with raspberrypi.local -> Click OK
         - Login as: Your pi ID
@@ -134,23 +139,13 @@
         # After successfully loged in perform below list code
         
           - ifconfig or hostname -I (Mark and keep the IP of your PI)
-          - sudo apt update && sudo apt upgrade -y
-          
-        # To Enable VNC
-
-        --> Bash Code
-          - sudo raspi-config
-          - Click Down Arrow key on keyboad to select Interface Options 
-          - Use Right Arrow key on keyboard to select "SELECT" Click Enter
-          - Use Down Arrow key on keyboard to select VNC and use Right Arrow key to Select the option click enter and enter again
-          - To finsh the setup use Right arrow key 2 times and click enter
-          - Now Reboot raspberry pi to apply the settings change
-          - Use Bash Comand > reboot
-
----
+          - sudo apt update && sudo apt upgrade -y   
+ 
+        # To Enable VNC Check below Code snippet
+<h2>Type --> sudo raspi-config</h2>
 
 <p>
-    <sub>--> Type "sudo raspi-config"<br>- Click Down Arrow key on keyboad to select "Interface Options"<br>- Use Right Arrow key on keyboard to select "SELECT" Click Enter<br> ↓</sub><br>&nbsp;
+    <sub>Click Down Arrow key on keyboad to select "Interface Options"<br>- Use Right Arrow key on keyboard to select "SELECT" Click Enter<br> ↓</sub><br>&nbsp;
     <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/e859807befaf7f13d85b2eaed705f900e2494948/PI_VNC_Config_1.png" alt="VNC" width="700" height="400"/>
 </p>
 
@@ -169,7 +164,9 @@
     <sub>--> To finsh the setup use Right arrow key 2 times select Finish and click Enter on keyboard</sub><br/>
 </p>
 
-<h4 align="center">Open VNC</h4>
+<h2>Type --> "sudo reboot"</h2>
+
+<h2 align="center">Open VNC</h2>
 
       Login with raspberrypi.local -> Click Enter
         - User: Your pi ID
@@ -232,7 +229,7 @@
   -->
   
   # Manual Installation from Raspberry Pi
-    Choose anyone ( I'm using PUTTY)
+    Choose anyone ( I'm using VNC you can use directly PUTTY)
       
       -  External Monitor
       -  VNC Software laptop
