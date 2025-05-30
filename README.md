@@ -56,9 +56,9 @@
     <summary>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Raspberry pi Setup</summary>
       &nbsp;&nbsp;&nbsp;&nbsp;
       <details>
-        <summary>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Install Raspberry PI OS 64 into Raspberry PI 5 (RAM more than 4GB)</summary>
+        <summary>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Install Raspberry PI OS     </summary>
     
-      <h2 align="center">Install Raspberry PI OS 64 into Raspberry PI 5 (RAM more than 4GB)</h2>
+  <h2 align="center">Install Raspberry PI OS 64 into Raspberry PI 5 (RAM more than 4GB)</h2>
     
     - Rasoberry PI 5
     - Micro-SD Card (atleast 64GB) 
@@ -69,7 +69,7 @@
     #Step 1:
     
     - Open PI Imager
-      - Flash “Raspberry Pi OS 64-bit (Lite or Desktop)” to SD card and config addistional settings before FLASH.
+      - Flash “Raspberry Pi OS 64-bit (Lite or Desktop)” to SD card and config additional settings before FLASH.
 
 <table>
   <tr>
@@ -102,7 +102,7 @@
   </tr>
    <tr>
     <td align="center">
-      <sub>Enable SSH</sub><br/>&nbsp;
+      <sub>Enable SSH and Save</sub><br/>&nbsp;
       <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/430b50794f33a102b278629e9e3103b0e06d6991/PI_Enable_SSH.png" alt="PI_Enable_SSH" width="900" height="220"/>
     </td>
     <td align="center">
@@ -115,7 +115,7 @@
     </td>
   </tr>
 </table>
-<h2 align="center">Once finshed Remove SD Card and insert into pi 5<br> ↓ <br/>PUTTY Setup</h2>
+<h2 align="center">Once finished Remove SD Card and insert into pi 5<br> ↓ <br/>PUTTY Setup</h2>
 </details>
 
 &nbsp;&nbsp;&nbsp;&nbsp;
@@ -123,9 +123,10 @@
         <summary>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PUTTY Setup</summary>
 
       Once PI OS 64/32 Insatlled on raspberry pi 5
-        Login with raspberrypi.local -> Click OK
+        Open PUTTY and Login with raspberrypi.local -> Click OK
           - Login as: Your pi ID
-          - Password: Your pi password
+          - Password: Your pi password 
+          # Note password not viisble
 <table>
   <tr>
     <td align="center">
@@ -147,8 +148,9 @@
         # To Enable VNC Check below Code snippet
 
 <p>
-    <sub>sudo raspi-config↓</sub><br>&nbsp;
-    <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/17e84fd27608e97cc2cb6bd735bf20c9840d4525/PI_PUTTY_VNC_Config.png" alt="VNC_Config" width="700" height="400"/>
+    <sub>sudo raspi-config<br/>↓</sub><br>&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/17e84fd27608e97cc2cb6bd735bf20c9840d4525/PI_PUTTY_VNC_Config.png" alt="VNC_Config" width="950" height="250"/>
 </p>
 
 <p>
@@ -171,8 +173,8 @@
     <sub>--> To finsh the setup use Right arrow key 2 times select Finish and click Enter on keyboard</sub><br/>
 </p>
 
-<h2>Type --> "sudo reboot"</h2>
-<h2 align="center">Once finshed VNC<br> ↓ <br/>Open VNC</h2>
+<h2>To apply the changes Reboot pi: "sudo reboot"</h2>
+<h2 align="center">Once Completed<br> ↓ <br/>Open VNC</h2>
 </details>
 
 &nbsp;&nbsp;&nbsp;&nbsp;
