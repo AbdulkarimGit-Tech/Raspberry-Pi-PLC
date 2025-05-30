@@ -14,115 +14,6 @@
 ---
 
 ## 💼 Table of Contents :
- <h1 align="center">**Hardwares**</h1>
-
-- Raspberry Pi 5 (4GB or 8GB)
-- microSD card (16GB or higher, Class 10) #Installed PI OS 64 / If not see Installation
-- Power supply (USB-C, 5V 3A+)
-- Ethernet cable (for stable communication)
-- Breadboard
-- Jumper wires
-- Optional: GPIO-connected 12V push buttons, LED indicators (via relay/level shifter)
-- Optional: Raspberry pi TCobbler if using breadboard
-- Optional: High voltage appliances (AC/DC)
-- Optional: Power Adapter (0-36V DC)
----
- <h1 align="center">**Softwares**</h1>
-
-- Raspberry Pi OS (Lite or Desktop, 64-bit recommended)
-- CODESYS Development System (on your Windows PC)
-- CODESYS Control for Raspberry Pi SL (SoftPLC runtime)
-- CODESYS License (free demo or paid full)
-  
----
- <h1 align="center">**Installation**</h1>
- <h4>**Install Raspberry PI OS 64 into Raspberry PI 5 (RAM more than 4GB)**</h4>
- 
-- Rasoberry PI 5
-- Micro-SD Card (atleast 64GB) 
-- USB SD Card Reader
-
-#Step 1:
-
-- Download Raspbery pi [Imager](https://downloads.raspberrypi.org/imager/imager_latest.exe) for Windows
-- Flash “Raspberry Pi OS 64-bit (Lite or Desktop)” to SD card.
-- Enable SSH and Wi-Fi (if needed) using raspi-config or headless setup.
-- Boot up Pi and update packages:
-- Bash <i>Copy below code</i>
-  
-   sudo apt update && sudo apt upgrade -y
-  <!--
-  ![Raspberry Pi Codesys PLC Setup](https://yourdomain.com/path/to/image.png)
-  ![update-pi-terminal](https://user-images.githubusercontent.com/123456789/update-pi-terminal.png) -->
-
-#Step 2:
-
-- Connect Pi to same local network as your PC.
-- Find Pi’s IP using:
-- Bash <i>Copy below code</i>
-  
-  hostname -I
-- Keep this IP ready for CODESYS connection.
-
-#Step 3: 
-
-- Download [Codesys](https://store.codesys.com/en/codesys-control-for-raspberry-pi-sl.html) for Windows
-- Install CODESYS Development System (PC)
-  <i>(FREE version CODESYS only works for 2 hours continiously so make sure to restart Raspberry pi in every 2 hours interval)</i>
-  
-#Step 4:
-
-- Install CODESYS Control for Raspberry Pi SL
-  
-  <h8>Which you have</h8>
-
-  - 1st External Monitor
-  - 2nd VNC Software laptop
-  - 3rd Use [PUTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) on Windows
-
-#Step 5:
-
-- Deploy CODESYS Runtime on Raspberry Pi
-  
-  - On your Windows PC, open CODESYS Development System
-  - Go to Tools → Device Installer
-  - Install Raspberry Pi runtime:
-  - Menu: Tools → Update Raspberry Pi
-  - Enter your Pi IP address
-  - Provide username (pi) and password (raspberry or your custom)
-
-  It will install runtime over SSH
-
-#Step 6:
-
-- Activate License (optional)
-  - You can run a demo version (2 hours runtime).
-  - For production: Buy license from CODESYS Store and activate via License Manager.
-
-#Step 7: 
-- Create a PLC Project in CODESYS
-  - File → New Project
-  - Choose: Standard project (Rename it)
-  - CODESYS Control for Raspberry Pi
-  - Select PLC_PRG and Ladder Logic (LD) or Structured Text (ST)
-
-- Add devices:
-  - GPIO (Digital Input/Output)
-  - Modbus, Ethernet/IP, etc. (if needed)
-  - Map GPIOs (I/O Configuration)
-  - Under “Device → Raspberry Pi GPIOs”
-- Assign I/O's:
-  - DI (Digital Input): GPIO pins to push buttons
-  - DO (Digital Output): GPIO pins to LEDs (via relay/transistor)
-#Note: Raspberry Pi uses BCM pin numbering (GPIO 17 = pin 11).
-
-- Download & Run PLC Program:
-  - Click Login → Download → Start PLC
-  - Watch Live I/O values in real time
-
-Your Raspberry Pi is now a fully running PLC using CODESYS!
-
----
 
 <details>
   <summary>Hardwares List</summary>
@@ -139,58 +30,211 @@ Your Raspberry Pi is now a fully running PLC using CODESYS!
 - Optional: Power Adapter (0-36V DC)
   
 </details>
-
+  
 ---
 
 <details>
-  <summary>Softwares</summary>
+  <summary>Softwares Download and Install</summary>
   
-- Raspberry Pi OS (Lite or Desktop, 64-bit recommended)
-- CODESYS Development System (on your Windows PC)
-- CODESYS Control for Raspberry Pi SL (SoftPLC runtime)
-- CODESYS License (free demo or paid full)
+- Download and Install [Raspberry Pi Imager](https://downloads.raspberrypi.org/imager/imager_latest.exe) for Windows
+- Download and Install [CODESYS](https://store.codesys.com/en/codesys-control-for-raspberry-pi-sl.html) for Windows
+- Download and Install [CODESYS Control for Raspberry Pi SL](https://store.codesys.com/en/codesys-control-for-raspberry-pi-sl.html) (SoftPLC runtime) for Windows
+- Download and Install [PUTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) on Windows
+- Download and Install [WinSCP](https://winscp.net/download/WinSCP-6.5.1-Setup.exe/download)
+- Download [CODESYS License (free demo or paid full)](https://store.codesys.com/en/codesys-control-for-raspberry-pi-sl.html)
   
 </details>
 
 ---
+
 <details>
-  <summary>📦 Installation</summary>
+  <summary>Installation</summary>
 
   &nbsp;&nbsp;&nbsp;&nbsp;
   <details>
-    <summary>🔧 Install Raspberry Pi OS 64 on Raspberry Pi 5 (RAM ≥ 4GB)</summary>
+    <summary>Install Raspberry PI OS 64 into Raspberry PI 5 (RAM more than 4GB)</summary>
 
-    - Raspberry Pi OS (Lite or Desktop, 64-bit recommended)  
-    - CODESYS Development System (on your Windows PC)  
-    - CODESYS Control for Raspberry Pi SL (SoftPLC runtime)  
-    - CODESYS License (free demo or paid full)  
+    - Rasoberry PI 5
+    - Micro-SD Card (atleast 64GB) 
+    - USB SD Card Reader 
+
+  <!--
+  -->
+
+    #Step 1:
+    
+    - Open PI Imager
+      - Flash “Raspberry Pi OS 64-bit (Lite or Desktop)” to SD card and config addistional settings before FLASH.
+      - Remove SD Card 
+    - Open PUTTY
+      - Login with raspberrypi.local -> Click OK
+        - User: Your ID
+        - Password: Your password
+        
+        # After successfully loged in perform below list code
+        
+          - ifconfig or hostname -I (Mark and keep the IP of your PI)
+          - sudo apt update && sudo apt upgrade -y
+          
+        # To Enable VNC
+        
+          - sudo raspi-config
+          - Click Down key keyboad to select Interface Options 
+          - Use Right Arow key on keyboard to select "SELECT" Click Enter
+          - Use Down Arow key on keyboard to select VNC and use Right Arow key to Select the option click enter and enter again
+          - To finsh the setup use Right arrow key 2 times and click enter
+          - Now Reboot raspberry pi to apply the settings change
+          - Use comand > reboot
+
+  # Raspberry Pi is ready to use
+ 
   </details>
 
   &nbsp;&nbsp;&nbsp;&nbsp;
   <details>
-    <summary>📁 Step 2</summary>
+    <summary>Install CODESYS Control Runtime on Raspberry pi</summary>
 
-    - Raspberry Pi OS (Lite or Desktop, 64-bit recommended)  
-    - CODESYS Development System (on your Windows PC)  
-    - CODESYS Control for Raspberry Pi SL (SoftPLC runtime)  
-    - CODESYS License (free demo or paid full)  
+  # Install CODESYS Control Runtime from Windows
+    
+    - Open CODESYS Development System on Windows
+    - From CODESYS Development System:
+      
+      - Go to Tools → Package Manager / Codesys Installer → Browse search below listed 4 package and install
+        - ✅ Install: CODESYS Control for Raspberry Pi SL
+        - ✅ Install: CODESYS Edge Gateway for Linux
+        - ✅ Install: CODESYS Control SL Extension Package
+        - ✅ Install: CODESYS SL Deploy Tool
+        
+    - Boot your Pi with the OS
+    - Ensure it's connected to the same network as your PC
+    
+    - On your Windows PC, open CODESYS Development System
+    
+    - Go to Tools → Device Installer
+    - Install Raspberry Pi runtime:
+    - Menu: Tools → Update Raspberry Pi
+    - Enter your Pi IP address
+    - Provide username (pi) and password (raspberry or your custom)
+    
+  # It will install runtime over SSH
+     
+     - In CODESYS → Go to:
+     - Tools → CODESYS Control for Raspberry Pi → Update Raspberry Pi
+     - Enter your Raspberry Pi’s IP address
+     - Choose:
+      - Login: pi ( Your ID or default)
+      - Password: raspberry (default; change if needed)
+      - Select the Demo License (free, 2-hour runtime)
+      - Wait for the runtime to install — success message will appear.
+
+  #  Activate License (optional)
+    - You can run a demo version (2 hours runtime).
+    - For production: Buy license from CODESYS Store and activate via License Manager.
+    
+  <!--
+  -->
+  
+  # Manual Installation from Raspberry Pi
+    Choose anyone ( I'm using PUTTY)
+      
+      -  External Monitor
+      -  VNC Software laptop
+      -  PUTTY
+      
+    - Download or Locate CODESYS Control for Raspberry Pi SL.deb file on Windows folder
+      Ex: C:\Program Files\CODESYS 3.5.21.0\CODESYS\CODESYS Control for Raspberry PI\Delivery\raspberry
+
+    - Open WinSCP, login with:
+    - Host: Your Pi’s ip or rapberrypi.local
+    - User: Your ID
+    - Password: Your password
+    - ✅ Drag & drop the .deb file to any folder (Ex: Downloads).
+
+  
+  # Follow Below Step to Install and Run CODESYS Runtime Successfully
+        Open PuTTY:
+          - Enter ip of your Raspberry Pi
+          - Login:
+            - Username: Your ID
+            - Password: Your password
+      
+        # PI Comand line
+        - Locate The copied file .deb (Use below command)
+
+        
+            > ls (Pi folders)
+            
+              Bookshelf | Documents | Music  |   Public  |   Videos
+            
+              Desktop  |  Downloads | Pictures | Templates
+
+            > cd Downloads (Copied filed into Downloads folder)
+            
+            > ls (You will see .deb file Ex: codesyscontrol_raspberry_4.15.0.0_all.deb)
+            
+            > sudo dpkg -i [codesyscontrol_raspberry_4.15.0.0_all.deb] ( [] Rename with yours file name)
+
+            > sudo systemctl status codesyscontrol (Check PLC Status Active or Dead)
+
+            > cd (Come back to Starting section)
+
+            > sudo systemctl start codesyscontrol (manual Start PLC Runtime #it will show Active)
+
+            > sudo systemctl status codesyscontrol (#it will show Active)
+
+  # Congrats you have successfully installed CODESYS Runtime into your pi 5
+    
   </details>
 
   &nbsp;&nbsp;&nbsp;&nbsp;
   <details>
-    <summary>📁 Step 3</summary>
+    <summary>Create a New PLC Project</summary>
+    
+      Go to: File → New Project → Standard Project
+      Select device:
+        CODESYS Control for Raspberry Pi 64 SL (64 bit)
+        Choose programming language: Ladder Diagram (LD), ST, etc.
 
-    - Raspberry Pi OS (Lite or Desktop, 64-bit recommended)  
-    - CODESYS Development System (on your Windows PC)  
-    - CODESYS Control for Raspberry Pi SL (SoftPLC runtime)  
-    - CODESYS License (free demo or paid full)  
+  # Setup PLC Development Environment
+
+    Go to: PLC PRG(PRG): Write down your PLC code -> Save it -> Click Generate code to compile
+
+    - Add devices:
+      - GPIO (Digital Input/Output)
+      - Modbus, Ethernet/IP, etc. (if needed)
+      - Map GPIOs (I/O Configuration)
+      - Under “Device → Raspberry Pi GPIOs”
+    
+    Go to: GPIO's ->
+    
+     - GPIO parameters 
+        -  Select GPIO's as INPUT or OUTPUT
+     - GPIO Maping 
+      - Select the lader logic variable (click on 3 dot go to PLC program and select) correspond to GPIO
+
+        - Assign I/O's:
+          - DI (Digital Input): GPIO pins to push buttons
+          - DO (Digital Output): GPIO pins to LEDs (via relay/transistor/pi GPIO's)
+      #Note: Raspberry Pi uses BCM pin numbering (GPIO 17 = pin 11).
+      
+    Go to: Tools -> Deploy Control SL -> Give ip adress, User name, password and connect CODESYS with PI
+    Go to: Device -> Scan network -> elect raspberry pi ip -> Click ok
+    Go to: Windows Taskber Show Hiden Icons -> right click on .64 -> Start PLC
+
+    Go to: Tools -> Online -> Login -> click Start (F5) to Run
+    
+      - If no hardware select Simulation 
+      - If have hardware no need to select Simulation
+
+  # Your Raspberry Pi is now a fully running PLC using CODESYS!
+
+    
   </details>
 
 </details>
 
-
-
 ---
+
 ## 📁 Featured Projects
 
 | Project       | Description      | Tech Stack |
