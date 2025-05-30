@@ -90,14 +90,19 @@
           - sudo apt update && sudo apt upgrade -y
           
         # To Enable VNC
-        
+
+        --> Bash Code
           - sudo raspi-config
-          - Click Down key keyboad to select Interface Options 
+          - Click Down Arow key on keyboad to select Interface Options 
           - Use Right Arow key on keyboard to select "SELECT" Click Enter
           - Use Down Arow key on keyboard to select VNC and use Right Arow key to Select the option click enter and enter again
           - To finsh the setup use Right arrow key 2 times and click enter
           - Now Reboot raspberry pi to apply the settings change
-          - Use comand > reboot
+          - Use Bash Comand > reboot
+
+![Raspberry Pi VNC](https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/e859807befaf7f13d85b2eaed705f900e2494948/PI_VNC_Config_1.png)
+![Raspberry Pi VNC_Config](https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/e859807befaf7f13d85b2eaed705f900e2494948/PI_VNC_Config_2.png)
+![Raspberry Pi VNC_Enable_YES](https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/e859807befaf7f13d85b2eaed705f900e2494948/PI_VNC_Enable.png)
 
   # Raspberry Pi is ready to use
  
