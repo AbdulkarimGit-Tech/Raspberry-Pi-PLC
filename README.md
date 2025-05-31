@@ -400,7 +400,79 @@
     Go to: Tools -> Online -> Login -> click Start (F5) to Run
     
       - If no hardware select Simulation 
+      - Click login -> Click Start
       - If have hardware no need to select Simulation
+      
+---
+
+# PLC programming without Hardware
+
+<p>
+    <sub> After  Writing Logic Go to : File → Save → Generate Code (F11) to Compile <br> Down side you can see if there is any Error or Not</sub><br/>&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <br><img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/7c793873b5b4a92b4cb22a112a20bf7f119fa273/PI_CODESYS_LED_Compile.png" alt="WinSCP_Login"/>
+</p>
+
+---
+
+<p>
+    <sub>After Compilation Go to : Online → Click Simulation → Click Login</sub><br/>&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <br><img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/7c793873b5b4a92b4cb22a112a20bf7f119fa273/PI_CODESYS_LED_Simulation.png" alt="WinSCp_Copy"/>
+</p>
+
+---
+
+<p>
+    <sub>You'll see Application in Stop Mode To Run the Code : Ciick on Play button</sub><br/>&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <br><img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/7c793873b5b4a92b4cb22a112a20bf7f119fa273/PI_CODESYS_LED_Login.png" alt="WinSCP_Copied"/>
+</p>
+
+---
+
+<p>
+    <sub>You'll see Application in Run Mode <br></sub><br/>&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <br><img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/7c793873b5b4a92b4cb22a112a20bf7f119fa273/PI_CODESYS_LED_Run%20Mode.png" alt="WinSCP_Copied"/>
+</p>
+
+---
+
+<p>
+    <sub>To Change the I/O's : click on Prepfered value it will show TRUE / FALSE : Click Ctrl + F7 to cahnge the Input state <br> You can see the Output Change</sub><br/>&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <br><img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/7c793873b5b4a92b4cb22a112a20bf7f119fa273/PI_CODESYS_LED_ladder.png" alt="WinSCP_Copied"/>
+</p>
+
+---
+
+<p>
+    <sub>Choose the logic lagnuage: I'm using "LD"</sub><br/>&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <br><img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/7c793873b5b4a92b4cb22a112a20bf7f119fa273/PI_CODESYS_LED_NO-LED.png" alt="WinSCP_Copied"/>
+</p>
+
+---
+
+<p>
+    <sub>Choose the logic lagnuage: I'm using "LD"</sub><br/>&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <br><img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/7c793873b5b4a92b4cb22a112a20bf7f119fa273/PI_CODESYS_LED_ON-OFF-LED.png" alt="WinSCP_Copied"/>
+</p>
+
+---
+
+<p>
+    <sub>Choose the logic lagnuage: I'm using "LD"</sub><br/>&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <br><img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/2be91d150777a99bddd4199cdaa9edadcf035da7/PI_CODESYS_LED_OFF.png" alt="WinSCP_Copied"/>
+</p>
+
+---
+
+
+
 
   # Your Raspberry Pi is now a fully running PLC using CODESYS!
 
