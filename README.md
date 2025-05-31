@@ -590,12 +590,9 @@
 ## 🔌 Tech Stack
 
 ### PLC & SCADA
-![TIA Portal](https://img.shields.io/badge/TIA--Portal-blue?style=flat&logo=siemens)
 ![CODESYS](https://img.shields.io/badge/CODESYS-red?style=flat)
-![WinCC](https://img.shields.io/badge/WinCC-lightgrey?style=flat&logo=windows)
-![Factory I/O](https://img.shields.io/badge/Factory--IO-green?style=flat)
-![OpenPLC](https://img.shields.io/badge/OpenPLC-005F9E?style=flat)
-![Node-RED](https://img.shields.io/badge/Node--RED-B92829?style=flat&logo=nodered)
+![HMI](https://img.shields.io/badge/CODESYS-red?style=flat)
+
 
 ### Programming Languages
 ![Ladder Logic](https://img.shields.io/badge/Ladder--Logic-yellow?style=flat)
@@ -603,10 +600,12 @@
 ![FBD](https://img.shields.io/badge/FBD-blueviolet?style=flat)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python)
 
-### Control Panel & Electrical Design
+### Electrical Design
 ![FreeCAD](https://img.shields.io/badge/FreeCAD-2E3A59?style=flat&logo=freecad&logoColor=white)
 ![Procreate](https://img.shields.io/badge/Procreate-111111?style=flat&logo=procreate&logoColor=white)
 ![QElectroTech](https://img.shields.io/badge/QElectroTech-005F87?style=flat&logo=electrical-engineering&logoColor=white)
+![Fritzing](https://img.shields.io/badge/Fritzing-E74C3C?style=flat&logo=fritzing&logoColor=white)
+
 <!-- ![AutoCAD](https://img.shields.io/badge/AutoCAD-E34F26?style=flat&logo=autodesk&logoColor=white) -->
 
 ### DevOps & Cloud Tools
