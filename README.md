@@ -317,9 +317,9 @@
 
             > sudo systemctl stop codesyscontrol (#it will stop PLC)
             
-  <h3>My case PLC already Running so i Turned it Off then Turned it On</h3>    
+  <h3>My PLC already Running so i Turned it Off then Turned it On</h3>    
   
-  ![VNC_PI_PLC](https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/975a54e36c902dfeeb3ba09d7c4067e08d9b6b3e/PI_PLC_Runtime_Install%20and%20Run.png)
+  ![VNC_PI_PLC](Images/PI_PLC_Runtime_Install%20and%20Run.png)
   
   # Congrats you have successfully installed CODESYS Runtime into your pi 5
   </details>
