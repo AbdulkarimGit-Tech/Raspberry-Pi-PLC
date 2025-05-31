@@ -329,7 +329,8 @@
 ---
 
 <details>
-  <summary>PLC Project creation</summary>
+  <summary>PLC Project creation</summary><br/>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
   <details>
     <summary>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create a New PLC Project</summary><br/>
@@ -340,7 +341,6 @@
       Select device:
         CODESYS Control for Raspberry Pi 64 SL (64 bit)
         Choose programming language: Ladder Diagram (LD), ST, etc.
-  ---
 
 <p>
     <sub>Project Creation: Go to: File → New Project → Standard Project</sub><br/>&nbsp;
@@ -375,8 +375,6 @@
 </p>
 
 </details>
-
----
 
   <details>
     <summary>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup PLC Development Environment without Raspberry pi</summary><br/>
@@ -451,8 +449,6 @@
 </p>
 
   </details>
-
----
 
   <details>
     <summary>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup PLC Development Environment for Raspberry pi</summary><br/>
