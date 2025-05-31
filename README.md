@@ -41,7 +41,7 @@
 - Download and Install [CODESYS](https://store.codesys.com/en/codesys-control-for-raspberry-pi-sl.html) for Windows
 - Download and Install [CODESYS Control for Raspberry Pi SL](https://store.codesys.com/en/codesys-control-for-raspberry-pi-sl.html) (SoftPLC runtime) for Windows
 - Download and Install [PUTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) on Windows
-- Download and Install [WinSCP](https://winscp.net/download/WinSCP-6.5.1-Setup.exe/download)
+- Download and Install [WinSCP](https://winscp.net/download/WinSCP-6.5.1-Setup.exe/download) for manual installation
 - Download [CODESYS License (free demo or paid full)](https://store.codesys.com/en/codesys-control-for-raspberry-pi-sl.html)
   
 </details>
@@ -255,7 +255,31 @@
     - User: Your ID
     - Password: Your password
     - ✅ Drag & drop the .deb file to any folder (Ex: Downloads).
+---
 
+<p>
+    <sub>WinSCP Login</sub><br/>&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/91d3b8f7036dde409c4c78416df474dce2b436d5/PI_WinSCP_Login.png" alt="WinSCP_Login"/>
+</p>
+
+---
+
+<p>
+    <sub>Locate ".deb" file into your PC, Drag & Drop into pi Folder "Downloads"</sub><br/>&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/91d3b8f7036dde409c4c78416df474dce2b436d5/PI_WinSCP_Find_.deb_File_Copy.png" alt="WinSCp_Copy"/>
+</p>
+
+---
+
+<p>
+    <sub>After Successfully Copied ".deb" file into pi folder</sub><br/>&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/91d3b8f7036dde409c4c78416df474dce2b436d5/PI_WinSCP_.deb_File_Copy.png" alt="WinSCP_Copied"/>
+</p>
+
+---
   
   # Follow Below Step to Install and Run CODESYS Runtime Successfully
         Open PuTTY / VNC:
@@ -270,7 +294,7 @@
         
             > ls (Pi folders)
 
-            > cd Downloads (Copied filed into Downloads folder)
+            > cd Downloads (Copied file folder)
             
             > ls (You will see .deb file Ex: codesyscontrol_raspberry_4.15.0.0_all.deb)
             
