@@ -581,7 +581,7 @@
 
 ---
 
-<i>#NOTE: I have used Active High GPIO's in Raspberry PI 5 and Active Low input Relay Channel so i have inverted my Active HIGH GPIO OUT Logic to LOW in my Code</i>
+<i>#NOTE: I have used Active LOW Relay Channel (Activate on LOW signal) and Raspberry PI 5 Output is Active High to avoid logic error, i have inverted my Active HIGH GPIO OUT Logic to LOW in my Code</i>
 
 ---
 
