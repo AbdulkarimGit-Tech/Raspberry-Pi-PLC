@@ -73,43 +73,43 @@
   <tr>
     <td align="center">
       <sub>Open PI Imager</sub><br/>&nbsp;
-      <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/3c37a7482b9af44548739b1cdac0cb1dea3d274d/PI_Imager.png" alt="PI_Imager" width="900"/>
+      <img src="Images/PI_Imager.png" alt="PI_Imager" width="900"/>
     </td>
     <td align="center">
       <sub>Choose Device</sub><br/>&nbsp;
-      <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/3c37a7482b9af44548739b1cdac0cb1dea3d274d/PI_Choose_Device.png" alt="PI_Choose_Device" width="900"/>
+      <img src="Images/PI_Choose_Device.png" alt="PI_Choose_Device" width="900"/>
     </td>
     <td align="center">
       <sub>Choose OS</sub><br/>&nbsp;
-      <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/3c37a7482b9af44548739b1cdac0cb1dea3d274d/PI_Choose_OS.png" alt="PI_Choose_OS" width="900"/>
+      <img src="Images/PI_Choose_OS.png" alt="PI_Choose_OS" width="900"/>
     </td>
   </tr>
    <tr>
     <td align="center">
       <sub>Select Storage</sub><br/>&nbsp;
-      <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/3c37a7482b9af44548739b1cdac0cb1dea3d274d/PI_Choose_Storage.png" alt="PI_Choose_Storage" width="900"/>
+      <img src="Images/PI_Choose_Storage.png" alt="PI_Choose_Storage" width="900"/>
     </td>
     <td align="center">
       <sub>Edit Settings</sub><br/>&nbsp;
-      <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/430b50794f33a102b278629e9e3103b0e06d6991/PI_Choose_Next.png" alt="PI_Choose_Next" width="900"/>
+      <img src="Images/PI_Choose_Next.png" alt="PI_Choose_Next" width="900"/>
     </td>
     <td align="center">
       <sub>Configure OS</sub><br/>&nbsp;
-      <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/430b50794f33a102b278629e9e3103b0e06d6991/PI_OS_Config.png" alt="PI_OS_Config" width="900" height="220"/>
+      <img src="Images/PI_OS_Config.png" alt="PI_OS_Config" width="900" height="220"/>
     </td>
   </tr>
    <tr>
     <td align="center">
       <sub>Enable SSH and Save</sub><br/>&nbsp;
-      <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/430b50794f33a102b278629e9e3103b0e06d6991/PI_Enable_SSH.png" alt="PI_Enable_SSH" width="900" height="220"/>
+      <img src="Images/PI_Enable_SSH.png" alt="PI_Enable_SSH" width="900" height="220"/>
     </td>
     <td align="center">
       <sub>OS Writing</sub><br/>&nbsp;
-      <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/430b50794f33a102b278629e9e3103b0e06d6991/PI_OS_Writing.png" alt="PI_OS_Writing" width="900"/>
+      <img src="Images/PI_OS_Writing.png" alt="PI_OS_Writing" width="900"/>
     </td>
     <td align="center">
       <sub>OS Verifying</sub><br/>&nbsp;
-      <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/430b50794f33a102b278629e9e3103b0e06d6991/PI_OS_Verifying.png" alt="PI_OS_Verifying" width="900"/>
+      <img src="Images/PI_OS_Verifying.png" alt="PI_OS_Verifying" width="900"/>
     </td>
   </tr>
 </table>
@@ -129,11 +129,11 @@
   <tr>
     <td align="center">
       <sub>PUTTY Login</sub><br/>&nbsp;
-      <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/dce769b17743514432fe80db7040ff256de3c3a5/PI_PUTTY_Config_OS.png" alt="PI_OS_Writing" width="900" height="400"/>
+      <img src="Images/PI_PUTTY_Config_OS.png" alt="PI_OS_Writing" width="900" height="400"/>
     </td>
     <td align="center">
       <sub>PUTTY pi Login</sub><br/>&nbsp;
-      <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/dce769b17743514432fe80db7040ff256de3c3a5/PI_Login_Successfully.png" alt="PI_OS_Verifying" width="900" height="400"/>
+      <img src="Images/PI_Login_Successfully.png" alt="PI_OS_Verifying" width="900" height="400"/>
     </td>
   </tr>
 </table>
@@ -148,26 +148,26 @@
 <p>
     <sub>sudo raspi-config<br/>↓</sub><br>&nbsp;
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/17e84fd27608e97cc2cb6bd735bf20c9840d4525/PI_PUTTY_VNC_Config.png" alt="VNC_Config" width="950" height="250"/>
+    <img src="Images/PI_PUTTY_VNC_Config.png" alt="VNC_Config" width="950" height="250"/>
 </p>
 
 <p>
     <sub>Click Down Arrow key on keyboad to select "Interface Options"<br>- Use Right Arrow key on keyboard to select "SELECT" Click Enter<br> ↓</sub><br>&nbsp;
-    <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/e859807befaf7f13d85b2eaed705f900e2494948/PI_VNC_Config_1.png" alt="VNC" width="700" height="400"/>
+    <img src="Images/PI_VNC_Config_1.png" alt="VNC" width="700" height="400"/>
 </p>
 
 ---
 
 <p>
     <sub>- Use Down Arrow key on keyboard to select VNC<br>- Use Right Arrow key to Select the option click enter and enter again <br>↓</sub><br>&nbsp;
-    <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/e859807befaf7f13d85b2eaed705f900e2494948/PI_VNC_Config_2.png" alt="VNC_Config" width="700" height="400"/>
+    <img src="Images/PI_VNC_Config_2.png" alt="VNC_Config" width="700" height="400"/>
 </p>
 
 ---
 
 <p>
     <sub>- Use Right Arrow key to Select "YES" and Enter <br>↓</sub><br>&nbsp;
-    <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/e859807befaf7f13d85b2eaed705f900e2494948/PI_VNC_Enable.png" alt="VNC_Enable" width="700" height="400"/><br>
+    <img src="Images/PI_VNC_Enable.png" alt="VNC_Enable" width="700" height="400"/><br>
     <sub>--> To finsh the setup use Right arrow key 2 times select Finish and click Enter on keyboard</sub><br/>
 </p>
 
@@ -188,8 +188,8 @@
         - sudo shutdown now (To Shutdown Pi)
 
 <p>
-    <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/c06ca68b4b3fd723cd8503cb831a8cc99380f5cb/PI_VNC_Connect_ID_Pasw.png" alt="VNC_Connect" width="700" height="400"/><br>
-    <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/c06ca68b4b3fd723cd8503cb831a8cc99380f5cb/PI_ls.png" alt="VNC_pi_Terminal" width="700" height="400"/><br>
+    <img src="Images/PI_VNC_Connect_ID_Pasw.png" alt="VNC_Connect" width="700" height="400"/><br>
+    <img src="Images/PI_ls.png" alt="VNC_pi_Terminal" width="700" height="400"/><br>
 </p>
 
 # Raspberry Pi is ready to use
@@ -268,7 +268,7 @@
 <p>
     <sub>WinSCP Login</sub><br/>&nbsp;
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <br><img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/91d3b8f7036dde409c4c78416df474dce2b436d5/PI_WinSCP_Login.png" alt="WinSCP_Login"/>
+    <br><img src="Images/PI_WinSCP_Login.png" alt="WinSCP_Login"/>
 </p>
 
 ---
@@ -276,7 +276,7 @@
 <p>
     <sub>Locate ".deb" file into your PC, Drag & Drop into pi Folder "Downloads"</sub><br/>&nbsp;
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/91d3b8f7036dde409c4c78416df474dce2b436d5/PI_WinSCP_Find_.deb_File_Copy.png" alt="WinSCp_Copy"/>
+    <img src="Images/PI_WinSCP_Find_.deb_File_Copy.png" alt="WinSCp_Copy"/>
 </p>
 
 ---
@@ -284,7 +284,7 @@
 <p>
     <sub>After Successfully Copied ".deb" file into pi folder</sub><br/>&nbsp;
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/91d3b8f7036dde409c4c78416df474dce2b436d5/PI_WinSCP_.deb_File_Copy.png" alt="WinSCP_Copied"/>
+    <img src="Images/PI_WinSCP_.deb_File_Copy.png" alt="WinSCP_Copied"/>
 </p>
 
 ---
@@ -345,7 +345,7 @@
 <p>
     <sub>Project Creation: Go to: File → New Project → Standard Project</sub><br/>&nbsp;
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <br><img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/1ec99bd8bdcba4a6efd4127dde1adea9aa2e219c/PI_CODESYS_Project_Creation.png" alt="WinSCP_Login"/>
+    <br><img src="Images/PI_CODESYS_Project_Creation.png" alt="WinSCP_Login"/>
 </p>
 
 ---
@@ -353,7 +353,7 @@
 <p>
     <sub>Select the Device :<br> If no Hardware : WIN v3 64 <br> If using pi 64 : pi 64 SL </sub><br/>&nbsp;
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <br><img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/1ec99bd8bdcba4a6efd4127dde1adea9aa2e219c/PI_CODESYS_Project_Hardware_v.png" alt="WinSCp_Copy"/>
+    <br><img src="Images/PI_CODESYS_Project_Hardware_v.png" alt="WinSCp_Copy"/>
 </p>
 
 ---
@@ -361,7 +361,7 @@
 <p>
     <sub>Choose the logic lagnuage: I'm using "LD"</sub><br/>&nbsp;
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <br><img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/1ec99bd8bdcba4a6efd4127dde1adea9aa2e219c/PI_CODESYS_Project_language.png" alt="WinSCP_Copied"/>
+    <br><img src="Images/PI_CODESYS_Project_language.png" alt="WinSCP_Copied"/>
 </p>
 
 ---
@@ -371,7 +371,7 @@
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <br>Left side Device's/ POU's/ Modules | Middle LD logic page | Right side LD logic Tools | Upper side Menu &nbsp;<br/>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <br><img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/ebcd75c4f4cce546b6035174892ddeecd5496870/PI_CODESYS_Package_Environment.png" alt="WinSCP_Copied"/>
+    <br><img src="Images/PI_CODESYS_Package_Environment.png" alt="WinSCP_Copied"/>
 </p>
 
 </details>
@@ -389,7 +389,7 @@
 <p>
     <sub> After  Writing Logic Go to : File → Save → Generate Code (F11) to Compile <br> Down side you can see if there is any Error or Not</sub><br/>&nbsp;
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <br><img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/7c793873b5b4a92b4cb22a112a20bf7f119fa273/PI_CODESYS_LED_Compile.png" alt="WinSCP_Login"/>
+    <br><img src="Images/PI_CODESYS_LED_Compile.png" alt="WinSCP_Login"/>
 </p>
 
 ---
@@ -397,7 +397,7 @@
 <p>
     <sub>After Compilation Go to : Online → Click Simulation → Click Login</sub><br/>&nbsp;
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <br><img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/7c793873b5b4a92b4cb22a112a20bf7f119fa273/PI_CODESYS_LED_Simulation.png" alt="WinSCp_Copy"/>
+    <br><img src="Images/PI_CODESYS_LED_Simulation.png" alt="WinSCp_Copy"/>
 </p>
 
 ---
@@ -405,7 +405,7 @@
 <p>
     <sub>You'll see Application in Stop Mode To Run the Code : Ciick on ▶ Play button</sub><br/>&nbsp;
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <br><img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/7c793873b5b4a92b4cb22a112a20bf7f119fa273/PI_CODESYS_LED_Login.png" alt="WinSCP_Copied"/>
+    <br><img src="Images/PI_CODESYS_LED_Login.png" alt="WinSCP_Copied"/>
 </p>
 
 ---
@@ -413,7 +413,7 @@
 <p>
     <sub>You'll see Application in Run Mode <br></sub><br/>&nbsp;
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <br><img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/7c793873b5b4a92b4cb22a112a20bf7f119fa273/PI_CODESYS_LED_Run%20Mode.png" alt="WinSCP_Copied"/>
+    <br><img src="Images/PI_CODESYS_LED_Run%20Mode.png" alt="WinSCP_Copied"/>
 </p>
 
 ---
@@ -421,7 +421,7 @@
 <p>
     <sub>To Change the I/O's : click on → Prepfered value it will show TRUE / FALSE : Click Ctrl + F7 to change the Input state</sub><br/>&nbsp;
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <br><img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/7c793873b5b4a92b4cb22a112a20bf7f119fa273/PI_CODESYS_LED_ladder.png" alt="WinSCP_Copied"/>
+    <br><img src="Images/PI_CODESYS_LED_ladder.png" alt="WinSCP_Copied"/>
 </p>
 
 ---
@@ -429,7 +429,7 @@
 <p>
     <sub>You can see the Output Change : <br> Output LED Turned ON</sub><br/>&nbsp;
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <br><img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/7c793873b5b4a92b4cb22a112a20bf7f119fa273/PI_CODESYS_LED_NO-LED.png" alt="WinSCP_Copied"/>
+    <br><img src="Images/PI_CODESYS_LED_NO-LED.png" alt="WinSCP_Copied"/>
 </p>
 
 ---
@@ -437,7 +437,7 @@
 <p>
     <sub>Again click on → Prepfered value it will show TRUE / FALSE : Click Ctrl + F7 to change the Input state</sub><br/>&nbsp;
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <br><img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/7c793873b5b4a92b4cb22a112a20bf7f119fa273/PI_CODESYS_LED_ON-OFF-LED.png" alt="WinSCP_Copied"/>
+    <br><img src="Images/PI_CODESYS_LED_ON-OFF-LED.png" alt="WinSCP_Copied"/>
 </p>
 
 ---
@@ -445,7 +445,7 @@
 <p>
     <sub>You can see the Output Change : <br> Output LED Turned OFF</sub><br/>&nbsp;
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <br><img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/2be91d150777a99bddd4199cdaa9edadcf035da7/PI_CODESYS_LED_OFF.png" alt="WinSCP_Copied"/>
+    <br><img src="Images/PI_CODESYS_LED_OFF.png" alt="WinSCP_Copied"/>
 </p>
 
   </details>
