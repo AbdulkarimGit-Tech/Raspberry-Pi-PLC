@@ -489,9 +489,9 @@
 <p>
     <sub>GPIO IO Maping → Double click on variable → Click Application → PLC PRG → Click the Ladder Logic I/Os and OK <br># Note : Asign Digital Input & Output Seperately</sub><br/>&nbsp;
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <br><img src="Images/PI_PLC_Define_GPIO_IO_maping.png" alt="WinSCP_Copied"/>
+    <br><img src="Images/PI_PLC_Define_GPIO_IO_maping.png" alt="GPIO_IO_maping"/>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <br><img src="Images/PI_PLC_Define_GPIO_IO_maping_Completed.png" alt="WinSCP_Copied"/>
+    <br><img src="Images/PI_PLC_Define_GPIO_IO_maping_Completed.png" alt="GPIO_IO_maping"/>
 </p>
 
 ---
@@ -499,15 +499,15 @@
 <p>
     <sub>Right click on Application → Add Object → Visualization click Active and OK</sub><br/>&nbsp;
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <br><img src="Images/PI_PLC_HMI_Visualization.png" alt="WinSCP_Copied"/>
+    <br><img src="Images/PI_PLC_HMI_Visualization.png" alt="HMI"/>
 </p>
 
 ---
 
 <p>
-    <sub>Go to Visualization → Drag and Drop icons → Double Click on variable → Click 3 dots → Application → PLC PRG → Click the Ladder Logic I/Os and OK <br> Do it for all HMI icons)<br></sub><br/>&nbsp;
+    <sub>Go to Visualization → Drag and Drop icons → Double Click on variable → Click 3 dots → Application → PLC PRG → Click the Ladder Logic I/Os and OK <br> Do it for all HMI icons <br></sub><br/>&nbsp;
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <br><img src="Images/PI_PLC_HMI_Visualization_Setup.png" alt="WinSCP_Copied"/>
+    <br><img src="Images/PI_PLC_HMI_Visualization_Setup.png" alt="HMI_Setup"/>
 </p>
 
 ---
@@ -515,7 +515,9 @@
 <p>
     <sub>Go to deploy Control → Click → Scan → click on Pi IP → Give User name and Password → Click Connect : <br> It will show connected (pi connected to CODESYS)</sub><br/>&nbsp;
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <br><img src="Images/PI_PLC_LD_Deploy%20Control.png" alt="WinSCP_Copied"/>
+    <br><img src="Images/PI_PLC_LD_Deploy%20Control.png" alt="Deploy_Control"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <br><img src="Images/PI_PLC_LD_Deploy Control_PI Connection.png" alt="PI_Connected_CODESYS"/>
 </p>
 
 ---
@@ -523,7 +525,9 @@
 <p>
     <sub>Go to Device → Scan Network → Click raspberrypi and OK</sub><br/>&nbsp;
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <br><img src="Images/PI_PLC_LD_Device%20Scan%20Network.png" alt="WinSCP_Copied"/>
+    <br><img src="Images/PI_PLC_LD_Device%20Scan%20Network.png" alt="Device_Network"/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <br><img src="Images/PI_PLC_LD_Device Scan Network_Connected.png" alt="Device_Network_Connected"/>
 </p>
 
 ---
@@ -531,40 +535,20 @@
 <p>
     <sub>Go to Taskber → Right click on Drop Down → Right Click on .64 and Start PLC</sub><br/>&nbsp;
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <br><img src="Images/Start_PLC.png" alt="WinSCP_Copied"/>
+    <br><img src="Images/Start_PLC.png" alt="Start_PLC"/>
 </p>
 
 ---
 
 <p>
-    <sub>Go to Online : → It will ask for CODESYS login ID adn Password → Enter →  Ciick on ▶ Play button → PLC will be in RUN mode</sub><br/>&nbsp;
+    <sub>Go to Online : → It will ask for CODESYS login ID and Password → Enter →  PLC will be in STOP Mode → Ciick on ▶ Play button → PLC will be in RUN mode</sub><br/>&nbsp;
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <br><img src="Images/PI_CODESYS_LED_ON-OFF-LED.png" alt="WinSCP_Copied"/>
-    <br><img src="Images/PI_PLC_Compilation_Login.png" alt="WinSCP_Copied"/>
+    <br><img src="Images/PI_PLC_Login.png" alt="Compile_LD"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <br><img src="Images/PI_PLC_Compilation_Login.png" alt="RUN_LD"/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <br><img src="Images/PI_PLC_RUN_Mode.png" alt="RUN_LD"/>
 </p>
-
-    
-    Go to: GPIO's ->
-    
-     - GPIO parameters 
-        -  Select GPIO's as INPUT or OUTPUT
-     - GPIO Maping 
-      - Select the lader logic variable (click on 3 dot go to PLC program and select) correspond to GPIO
-
-        - Assign I/O's:
-          - DI (Digital Input): GPIO pins to push buttons
-          - DO (Digital Output): GPIO pins to LEDs (via relay/transistor/pi GPIO's)
-      #Note: Raspberry Pi uses BCM pin numbering (GPIO 17 = pin 11).
-      
-    Go to: Tools -> Deploy Control SL -> Give ip adress, User name, password and connect CODESYS with PI
-    Go to: Device -> Scan network -> elect raspberry pi ip -> Click ok
-    Go to: Windows Taskber Show Hiden Icons -> right click on .64 -> Start PLC
-
-    Go to: Tools -> Online -> Login -> click Start (F5) to Run
-    
-      - If no hardware select Simulation 
-      - Click login -> Click Start
-      - If have hardware no need to select Simulation
 
 
   # Your Raspberry Pi is now a fully running PLC using CODESYS!
