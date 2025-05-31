@@ -662,7 +662,7 @@
 ![Ladder Logic](https://img.shields.io/badge/Ladder--Logic-yellow?style=flat)
 ![Structured Text](https://img.shields.io/badge/Structured--Text-orange?style=flat)
 ![FBD](https://img.shields.io/badge/FBD-blueviolet?style=flat)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python)
+[![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-CC0000?style=flat&logo=raspberry-pi&logoColor=white)](https://www.raspberrypi.com/)
 
 ### Electrical Design
 ![FreeCAD](https://img.shields.io/badge/FreeCAD-2E3A59?style=flat&logo=freecad&logoColor=white)
