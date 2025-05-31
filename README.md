@@ -328,9 +328,14 @@
 
 ---
 
+<details>
+  <summary>PLC Project creation</summary>
+
   <details>
-    <summary>Create a New PLC Project</summary>
-    
+    <summary>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create a New PLC Project</summary><br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+  # Create a New PLC Project
       Go to: File → New Project → Standard Project
       Select device:
         CODESYS Control for Raspberry Pi 64 SL (64 bit)
@@ -369,7 +374,13 @@
     <br><img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/ebcd75c4f4cce546b6035174892ddeecd5496870/PI_CODESYS_Package_Environment.png" alt="WinSCP_Copied"/>
 </p>
 
+</details>
+
 ---
+
+  <details>
+    <summary>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup PLC Development Environment without Raspberry pi</summary><br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 # Setup PLC Development Environment without Raspberry pi
 
@@ -439,7 +450,13 @@
     <br><img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/2be91d150777a99bddd4199cdaa9edadcf035da7/PI_CODESYS_LED_OFF.png" alt="WinSCP_Copied"/>
 </p>
 
+  </details>
+
 ---
+
+  <details>
+    <summary>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup PLC Development Environment for Raspberry pi</summary><br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
   # Setup PLC Development Environment for Raspberry pi
 
@@ -476,8 +493,8 @@
 
   # Your Raspberry Pi is now a fully running PLC using CODESYS!
 
-    
   </details>
+</details>
 
 ---
 
