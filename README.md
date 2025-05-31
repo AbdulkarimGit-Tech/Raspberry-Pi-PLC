@@ -463,6 +463,55 @@
       - Modbus, Ethernet/IP, etc. (if needed)
       - Map GPIOs (I/O Configuration)
       - Under “Device → Raspberry Pi GPIOs”
+      
+---
+
+<p>
+    <sub>Write down your PLC code : Click Generate code to compile</sub><br/>&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <br><img src="Images/PI_PLC_ladder_logic.png" alt="WinSCP_Copied"/>
+</p>
+
+---
+
+<p>
+    <sub>Go to Tools : Click deploy Control<br></sub><br/>&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <br><img src="Images/PI_PLC_LD_Deploy%20Control.png" alt="WinSCP_Copied"/>
+</p>
+
+---
+
+<p>
+    <sub>Click → Scan → click on Pi IP → Give User name and Password → Click Connect : <br> It will show connected (pi connected to CODESYS)</sub><br/>&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <br><img src="Images/PI_CODESYS_LED_ladder.png" alt="WinSCP_Copied"/>
+</p>
+
+---
+
+<p>
+    <sub>Go to Device → Scan Network → Click raspberrypi and OK</sub><br/>&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <br><img src="Images/PI_PLC_LD_Device%20Scan%20Network.png" alt="WinSCP_Copied"/>
+</p>
+
+---
+
+<p>
+    <sub>Again click on → Prepfered value it will show TRUE / FALSE : Click Ctrl + F7 to change the Input state</sub><br/>&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <br><img src="Images/PI_CODESYS_LED_ON-OFF-LED.png" alt="WinSCP_Copied"/>
+</p>
+
+---
+
+<p>
+    <sub>You can see the Output Change : <br> Output LED Turned OFF</sub><br/>&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <br><img src="Images/PI_CODESYS_LED_OFF.png" alt="WinSCP_Copied"/>
+</p>
+
     
     Go to: GPIO's ->
     
