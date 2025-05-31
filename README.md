@@ -61,12 +61,10 @@
   <h2 align="center">Install Raspberry PI OS 64 into Raspberry PI 5 (RAM more than 4GB)</h2>
     
     - Rasoberry PI 5
-    - Micro-SD Card (atleast 64GB) 
+    - Micro-SD Card (atleast 16GB) 
     - USB SD Card Reader 
   <!--
   -->
-
-    #Step 1:
     
     - Open PI Imager
       - Flash “Raspberry Pi OS 64-bit (Lite or Desktop)” to SD card and config additional settings before FLASH.
@@ -122,11 +120,11 @@
 <details>
         <summary>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PUTTY Setup</summary>
 
-      Once PI OS 64/32 Insatlled on raspberry pi 5
+      Once PI OS 64/32 Installed on raspberry pi 5
         Open PUTTY and Login with raspberrypi.local -> Click OK
           - Login as: Your pi ID
           - Password: Your pi password 
-          # Note password not viisble
+          # Note password not visible
 <table>
   <tr>
     <td align="center">
@@ -140,12 +138,12 @@
   </tr>
 </table>
 
-        # After successfully logged in perform below list code
+        # After successfully logged in get your pi IP
         
-          - ifconfig or hostname -I (Mark and keep the IP of your PI similar like 192.168.190.89)
+          - ifconfig or hostname -I (Keep the IP of your PI similar like Ex: 192.168.xxx.xx)
           - sudo apt update && sudo apt upgrade -y   
  
-        # To Enable VNC Check below Code snippet
+# To Enable VNC Check below Code snippet
 
 <p>
     <sub>sudo raspi-config<br/>↓</sub><br>&nbsp;
@@ -186,7 +184,7 @@
         - User: Your pi ID
         - Password: Your pi password
         - Open Terminal
-        - Update Pi
+        - Update Pi (sudo apt update && sudo apt upgrade -y)
         - sudo shutdown now (To Shutdown Pi)
 
 <p>
@@ -208,10 +206,10 @@
     - From CODESYS Development System:
       
       - Go to Tools → Package Manager / Codesys Installer → Browse search below listed 4 package and install
-        - ✅ Install: CODESYS Control for Raspberry Pi SL
-        - ✅ Install: CODESYS Edge Gateway for Linux
-        - ✅ Install: CODESYS Control SL Extension Package
-        - ✅ Install: CODESYS SL Deploy Tool
+        - ✅ CODESYS Control for Raspberry Pi SL
+        - ✅ CODESYS Edge Gateway for Linux
+        - ✅ CODESYS Control SL Extension Package
+        - ✅ CODESYS SL Deploy Tool
         
     - Boot your Pi with the OS
     - Ensure it's connected to the same network as your PC
@@ -243,13 +241,13 @@
   -->
   
   # Manual Installation from Raspberry Pi
-    Choose anyone ( I'm using VNC you can use directly PUTTY)
+    Choose anyone ( I'm using VNC, you can use anyone process is same)
       
       -  External Monitor
       -  VNC Software laptop
       -  PUTTY
 
-    - Download or Locate CODESYS Control for Raspberry Pi SL.deb file on Windows folder
+    - Download or Locate "CODESYS Control for Raspberry Pi SL.deb" file on Windows folder
       Ex: C:\Program Files\CODESYS 3.5.21.0\CODESYS\CODESYS Control for Raspberry PI\Delivery\raspberry
 
     - Open WinSCP, login with:
