@@ -198,8 +198,11 @@
 
   &nbsp;&nbsp;&nbsp;&nbsp;
   <details>
-    <summary>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Install CODESYS Control Runtime on Raspberry pi</summary>
-
+    <summary>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Install CODESYS Control Runtime on Raspberry pi</summary><br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <details>
+        <summary>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Install CODESYS Control Runtime from Windows</summary>
+    
   # Install CODESYS Control Runtime from Windows
     
     - Open CODESYS Development System on Windows
@@ -239,6 +242,11 @@
     
   <!--
   -->
+  </details>
+ 
+
+  <details>
+        <summary>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Manual Installation from Raspberry Pi</summary>
   
   # Manual Installation from Raspberry Pi
     Choose anyone ( I'm using VNC, you can use anyone process is same)
@@ -314,7 +322,7 @@
   ![VNC_PI_PLC](https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/975a54e36c902dfeeb3ba09d7c4067e08d9b6b3e/PI_PLC_Runtime_Install%20and%20Run.png)
   
   # Congrats you have successfully installed CODESYS Runtime into your pi 5
-    
+  </details>
   </details>
 </details>
 
