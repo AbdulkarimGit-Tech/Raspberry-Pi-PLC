@@ -351,6 +351,17 @@
     <br><img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/1ec99bd8bdcba4a6efd4127dde1adea9aa2e219c/PI_CODESYS_Project_language.png" alt="WinSCP_Copied"/>
 </p>
 
+---
+
+<p>
+    <sub>Programming Environment</sub><br/>&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <br>Left side Device's/ POU's/ Modules | Middle LD logic page | Right side LD logic Tools | Upper side Menu &nbsp;<br/>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <br><img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/ebcd75c4f4cce546b6035174892ddeecd5496870/PI_CODESYS_Package_Environment.png" alt="WinSCP_Copied"/>
+</p>
+
+---
 
   # Setup PLC Development Environment
 
