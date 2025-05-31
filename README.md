@@ -500,26 +500,6 @@
 |---------------|------------------|----------------|
 |Raspberry Pi 5 Relay Control| PLC automation with Raspberrypi 5 and Codesys Runtime basic relay control, using push button and LED feedback | CODESYS, Pi 5, LD |
 
-
-[▶️ Watch the video](https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/380e6ad52285033cf51c794ff301bf7d8a179ed5/Project/Pi_PLC_Working.mp4)
-
-<p>
-    <sub>Hardware Circuit</sub><br/>&nbsp;
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <br><img src="Project/PI_PLC_Hardware_Circuit.png" alt="Hardware Circuit"/>
-</p>
-
----
-
-<p>
-    <sub>Hardware Wiring</sub><br/>&nbsp;
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <br><img src="Project/PI_PLC_Wiring.png" alt="PI_PLC_Wiring"/>
-</p>
-
----
-
-
 <h2>Bill of Materials (BOM) Example</h2>
 
 | Item                           | Description        | Qty |
@@ -535,12 +515,73 @@
 | Ethernet cable / WiFi          | Communication      | 1   |
 | Bread Board, Jumper wires      | For Connection     | 1-10|
 
+[▶️ Watch the video](https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/380e6ad52285033cf51c794ff301bf7d8a179ed5/Project/Pi_PLC_Working.mp4)
+
+# Hardware Circuit <br/>&nbsp;
+<p>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <br><img src="Project/PI_PLC_Hardware_Circuit.png" alt="Hardware Circuit"/>
+</p>
+
+---
+
+ # Hardware Wiring <br/>&nbsp;
+<p>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <br><img src="Project/PI_PLC_Hardware_Wiring.jpg" alt="PI_PLC_Wiring"/>
+</p>
+
+---
+
+
+<h2>Hardware Connection</h2>
+
+<div style="border: 2px solid #ccc; border-radius: 10px; padding: 10px; overflow-x: auto;">
+  
+<table>
+  <thead>
+    <tr>
+      <th>Connection</th>
+      <th></th>
+      <th>Connection</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Raspberry pi VCC</td><td>5v</td><td>Relay Channel</td><td>5v</td></tr>
+    <tr><td>Raspberry pi GND</td><td>GND</td><td>Relay Channel</td><td>GND</td></tr>
+    <tr><td>Raspberry pi GPIO</td><td>23</td><td>Relay Channel</td><td>IN 7</td></tr>
+    <tr><td>Raspberry pi GPIO</td><td>24</td><td>Relay Channel</td><td>IN 6</td></tr>
+    <tr><td>Raspberry pi GPIO</td><td>3.3v</td><td>4x4 PB Matrix</td><td>R 1</td></tr>
+    <tr><td>Raspberry pi GPIO</td><td>17</td><td>4x4 PB Matrix</td><td>C 1</td></tr>
+    <tr><td>Raspberry pi GPIO</td><td>18</td><td>4x4 PB Matrix</td><td>C 2</td></tr>
+    <tr><td>Raspberry pi GPIO</td><td>22</td><td>4x4 PB Matrix</td><td>C 3</td></tr>
+    <tr><td>Raspberry pi GPIO</td><td>27</td><td>4x4 PB Matrix</td><td>C 4</td></tr>
+    <tr><td>Relay Channel VCC</td><td>12v</td><td>12v Power Supply</td><td>VCC</td></tr>
+    <tr><td>Relay Channel GND</td><td>GND</td><td>12v Power Supply</td><td>GND</td></tr>
+    <tr><td>Relay Channel D7</td><td>NO</td><td>Connected to Green LED +ve</td><td>12v</td></tr>
+    <tr><td>Relay Channel D7</td><td>COM</td><td>Connected to 12v Power VCC + D6 COM</td><td>12v</td></tr>
+    <tr><td>Relay Channel D6</td><td>NO</td><td>Connected to Red LED +ve</td><td>12v</td></tr>
+    <tr><td>Relay Channel D6</td><td>COM</td><td>Connected to 12v Power VCC + D7 COM</td><td>12v</td></tr>
+    <tr><td>12v Green LED</td><td>GND</td><td>Connected to 12v Power GND + D6 COM</td><td>12v</td></tr>
+    <tr><td>12v Red LED</td><td>GND</td><td>Connected to 12v Power GND + D6 COM</td><td>12v</td></tr>
+  </tbody>
+</table>
+
+</div>
+
+---
+
+# PLC Ladder Logic ex:
+
+<p>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <br><img src="Project/PI_PLC_ladder_logic.png" alt="PLC Ladder Logic"/>
+</p>
+
+---
 
 <i>#NOTE: I have used Active High GPIO's in Raspberry PI 5 and Active Low input Relay Channel so i have inverted my Active HIGH GPIO OUT Logic to LOW in my Code</i>
-<!--| 🔄 **VFD Speed Control** | Real-time analog feedback with ramp/safety interlocks | Siemens S7-1200 + VFD |
-| 🌐 **IoT Data Logger** | MQTT-based real-time SCADA integration | Raspberry Pi + Node-RED |
-| 🎛 **HMI Panel Design** | Interactive SCADA dashboards with alarms, logs | WinCC + Factory I/O |
-| ⚡ **Smart MCC Panel** | CAD design, PLC wiring, HMI layout & full automation | FreeCAD, TIA Portal | -->
 
 ---
 
@@ -548,7 +589,6 @@
 
 ## 🔌 Tech Stack
 
-<!
 ### PLC & SCADA
 ![TIA Portal](https://img.shields.io/badge/TIA--Portal-blue?style=flat&logo=siemens)
 ![CODESYS](https://img.shields.io/badge/CODESYS-red?style=flat)
