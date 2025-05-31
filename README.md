@@ -507,11 +507,11 @@
 | Raspberry Pi 5 (4GB)           | Main controller    | 1   |
 | microSD (128GB)                | Storage            | 1   |
 | USB-C PSU (5V 3A) Pi Official  | Power supply       | 1   |
-| GPIO Extension Board           | Easy I/O access    | 1   |
+| GPIO TCobbler Board            | Easy I/O access    | 1   |
 | 12V Relay Module (16 Channel)  | For output control | 1   |
 | 12V LED indicators             | For output test    | 2–4 |
-| 12V Push Buttons               | For input          | 2–4 |
-| 12V Level Relay                | GPIO protection    | 1   |
+| 3.3V Push Buttons              | For input          | 2–4 |
+| 12V power supply               | Relay & LED power  | 1   |
 | Ethernet cable / WiFi          | Communication      | 1   |
 | Bread Board, Jumper wires      | For Connection     | 1-10|
 
