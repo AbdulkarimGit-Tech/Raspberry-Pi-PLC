@@ -500,6 +500,26 @@
 |---------------|------------------|----------------|
 |Raspberry Pi 5 Relay Control| PLC automation with Raspberrypi 5 and Codesys Runtime basic relay control, using push button and LED feedback | CODESYS, Pi 5, LD |
 
+
+[▶️ Watch the video](https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/380e6ad52285033cf51c794ff301bf7d8a179ed5/Project/Pi_PLC_Working.mp4)
+
+<p>
+    <sub>Hardware Circuit</sub><br/>&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <br><img src="Project/PI_PLC_Hardware_Circuit.png" alt="Hardware Circuit"/>
+</p>
+
+---
+
+<p>
+    <sub>Hardware Wiring</sub><br/>&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <br><img src="Project/PI_PLC_Wiring.png" alt="PI_PLC_Wiring"/>
+</p>
+
+---
+
+
 <h2>Bill of Materials (BOM) Example</h2>
 
 | Item                           | Description        | Qty |
