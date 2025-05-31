@@ -467,25 +467,55 @@
 ---
 
 <p>
-    <sub>Write down your PLC code : Click Generate code to compile</sub><br/>&nbsp;
+    <sub>Write your PLC code → Click Generate code to compile and Save</sub><br/>&nbsp;
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <br><img src="Images/PI_PLC_ladder_logic.png" alt="WinSCP_Copied"/>
+    <br><img src="Images/PI_PLC_ladder_logic.png" alt="PI_PLC"/>
 </p>
 
 ---
 
 <p>
-    <sub>Go to Tools : Click deploy Control<br></sub><br/>&nbsp;
+    <sub>Go to GPIOs → GPIO Parameters → Double click to Asign GPIO as INPUT or OUTPUT</sub><br/>&nbsp;
+  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <br><img src="Images/PI_PLC_Define_GPIO_Parameters.png" alt="GPIO_Parameter"/>
+  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <br><img src="Images/PI_PLC_Define_GPIO_Parameters_IOs.png" alt="GPIO_Parameter_IO"/>
+</p>
+
+---
+
+<p>
+    <sub>GPIO IO Maping → Double click on variable → Click Application → PLC PRG → Click the Ladder Logic I/Os and OK <br># Note : Asign Digital Input & Output Seperately</sub><br/>&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <br><img src="Images/PI_PLC_Define_GPIO_IO_maping.png" alt="WinSCP_Copied"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <br><img src="Images/PI_PLC_Define_GPIO_IO_maping_Completed.png" alt="WinSCP_Copied"/>
+</p>
+
+---
+
+<p>
+    <sub>Right click on Application → Add Object → Visualization click Active and OK</sub><br/>&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <br><img src="Images/PI_PLC_HMI_Visualization.png" alt="WinSCP_Copied"/>
+</p>
+
+---
+
+<p>
+    <sub>Go to Visualization → Drag and Drop icons → Double Click on variable → Click 3 dots → Application → PLC PRG → Click the Ladder Logic I/Os and OK <br> Do it for all HMI icons)<br></sub><br/>&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <br><img src="Images/PI_PLC_HMI_Visualization_Setup.png" alt="WinSCP_Copied"/>
+</p>
+
+---
+
+<p>
+    <sub>Go to deploy Control → Click → Scan → click on Pi IP → Give User name and Password → Click Connect : <br> It will show connected (pi connected to CODESYS)</sub><br/>&nbsp;
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <br><img src="Images/PI_PLC_LD_Deploy%20Control.png" alt="WinSCP_Copied"/>
-</p>
-
----
-
-<p>
-    <sub>Click → Scan → click on Pi IP → Give User name and Password → Click Connect : <br> It will show connected (pi connected to CODESYS)</sub><br/>&nbsp;
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <br><img src="Images/PI_CODESYS_LED_ladder.png" alt="WinSCP_Copied"/>
 </p>
 
 ---
@@ -499,17 +529,18 @@
 ---
 
 <p>
-    <sub>Again click on → Prepfered value it will show TRUE / FALSE : Click Ctrl + F7 to change the Input state</sub><br/>&nbsp;
+    <sub>Go to Taskber → Right click on Drop Down → Right Click on .64 and Start PLC</sub><br/>&nbsp;
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <br><img src="Images/PI_CODESYS_LED_ON-OFF-LED.png" alt="WinSCP_Copied"/>
+    <br><img src="Images/Start_PLC.png" alt="WinSCP_Copied"/>
 </p>
 
 ---
 
 <p>
-    <sub>You can see the Output Change : <br> Output LED Turned OFF</sub><br/>&nbsp;
+    <sub>Go to Online : → It will ask for CODESYS login ID adn Password → Enter →  Ciick on ▶ Play button → PLC will be in RUN mode</sub><br/>&nbsp;
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <br><img src="Images/PI_CODESYS_LED_OFF.png" alt="WinSCP_Copied"/>
+    <br><img src="Images/PI_CODESYS_LED_ON-OFF-LED.png" alt="WinSCP_Copied"/>
+    <br><img src="Images/PI_PLC_Compilation_Login.png" alt="WinSCP_Copied"/>
 </p>
 
     
