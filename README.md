@@ -371,41 +371,11 @@
 
 ---
 
-  # Setup PLC Development Environment
+# Setup PLC Development Environment without Raspberry pi
 
-    Go to: PLC PRG(PRG): Write down your PLC code -> Save it -> Click Generate code to compile
-
-    - Add devices:
-      - GPIO (Digital Input/Output)
-      - Modbus, Ethernet/IP, etc. (if needed)
-      - Map GPIOs (I/O Configuration)
-      - Under “Device → Raspberry Pi GPIOs”
-    
-    Go to: GPIO's ->
-    
-     - GPIO parameters 
-        -  Select GPIO's as INPUT or OUTPUT
-     - GPIO Maping 
-      - Select the lader logic variable (click on 3 dot go to PLC program and select) correspond to GPIO
-
-        - Assign I/O's:
-          - DI (Digital Input): GPIO pins to push buttons
-          - DO (Digital Output): GPIO pins to LEDs (via relay/transistor/pi GPIO's)
-      #Note: Raspberry Pi uses BCM pin numbering (GPIO 17 = pin 11).
-      
-    Go to: Tools -> Deploy Control SL -> Give ip adress, User name, password and connect CODESYS with PI
-    Go to: Device -> Scan network -> elect raspberry pi ip -> Click ok
-    Go to: Windows Taskber Show Hiden Icons -> right click on .64 -> Start PLC
-
-    Go to: Tools -> Online -> Login -> click Start (F5) to Run
-    
       - If no hardware select Simulation 
       - Click login -> Click Start
       - If have hardware no need to select Simulation
-      
----
-
-# PLC programming without Hardware
 
 <p>
     <sub> After  Writing Logic Go to : File → Save → Generate Code (F11) to Compile <br> Down side you can see if there is any Error or Not</sub><br/>&nbsp;
@@ -471,7 +441,37 @@
 
 ---
 
+  # Setup PLC Development Environment for Raspberry pi
 
+    Go to: PLC PRG(PRG): Write down your PLC code -> Save it -> Click Generate code to compile
+
+    - Add devices:
+      - GPIO (Digital Input/Output)
+      - Modbus, Ethernet/IP, etc. (if needed)
+      - Map GPIOs (I/O Configuration)
+      - Under “Device → Raspberry Pi GPIOs”
+    
+    Go to: GPIO's ->
+    
+     - GPIO parameters 
+        -  Select GPIO's as INPUT or OUTPUT
+     - GPIO Maping 
+      - Select the lader logic variable (click on 3 dot go to PLC program and select) correspond to GPIO
+
+        - Assign I/O's:
+          - DI (Digital Input): GPIO pins to push buttons
+          - DO (Digital Output): GPIO pins to LEDs (via relay/transistor/pi GPIO's)
+      #Note: Raspberry Pi uses BCM pin numbering (GPIO 17 = pin 11).
+      
+    Go to: Tools -> Deploy Control SL -> Give ip adress, User name, password and connect CODESYS with PI
+    Go to: Device -> Scan network -> elect raspberry pi ip -> Click ok
+    Go to: Windows Taskber Show Hiden Icons -> right click on .64 -> Start PLC
+
+    Go to: Tools -> Online -> Login -> click Start (F5) to Run
+    
+      - If no hardware select Simulation 
+      - Click login -> Click Start
+      - If have hardware no need to select Simulation
 
 
   # Your Raspberry Pi is now a fully running PLC using CODESYS!
