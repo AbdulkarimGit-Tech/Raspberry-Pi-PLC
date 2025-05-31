@@ -424,7 +424,7 @@
 ---
 
 <p>
-    <sub>You'll see Application in Stop Mode To Run the Code : Ciick on Play button</sub><br/>&nbsp;
+    <sub>You'll see Application in Stop Mode To Run the Code : Ciick on ▶ Play button</sub><br/>&nbsp;
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <br><img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/7c793873b5b4a92b4cb22a112a20bf7f119fa273/PI_CODESYS_LED_Login.png" alt="WinSCP_Copied"/>
 </p>
@@ -440,7 +440,7 @@
 ---
 
 <p>
-    <sub>To Change the I/O's : click on Prepfered value it will show TRUE / FALSE : Click Ctrl + F7 to cahnge the Input state <br> You can see the Output Change</sub><br/>&nbsp;
+    <sub>To Change the I/O's : click on → Prepfered value it will show TRUE / FALSE : Click Ctrl + F7 to change the Input state</sub><br/>&nbsp;
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <br><img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/7c793873b5b4a92b4cb22a112a20bf7f119fa273/PI_CODESYS_LED_ladder.png" alt="WinSCP_Copied"/>
 </p>
@@ -448,7 +448,7 @@
 ---
 
 <p>
-    <sub>Choose the logic lagnuage: I'm using "LD"</sub><br/>&nbsp;
+    <sub>You can see the Output Change : <br> Output LED Turned ON</sub><br/>&nbsp;
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <br><img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/7c793873b5b4a92b4cb22a112a20bf7f119fa273/PI_CODESYS_LED_NO-LED.png" alt="WinSCP_Copied"/>
 </p>
@@ -456,7 +456,7 @@
 ---
 
 <p>
-    <sub>Choose the logic lagnuage: I'm using "LD"</sub><br/>&nbsp;
+    <sub>Again click on → Prepfered value it will show TRUE / FALSE : Click Ctrl + F7 to change the Input state</sub><br/>&nbsp;
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <br><img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/7c793873b5b4a92b4cb22a112a20bf7f119fa273/PI_CODESYS_LED_ON-OFF-LED.png" alt="WinSCP_Copied"/>
 </p>
@@ -464,7 +464,7 @@
 ---
 
 <p>
-    <sub>Choose the logic lagnuage: I'm using "LD"</sub><br/>&nbsp;
+    <sub>You can see the Output Change : <br> Output LED Turned OFF</sub><br/>&nbsp;
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <br><img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/2be91d150777a99bddd4199cdaa9edadcf035da7/PI_CODESYS_LED_OFF.png" alt="WinSCP_Copied"/>
 </p>
