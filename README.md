@@ -260,7 +260,7 @@
 <p>
     <sub>WinSCP Login</sub><br/>&nbsp;
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/91d3b8f7036dde409c4c78416df474dce2b436d5/PI_WinSCP_Login.png" alt="WinSCP_Login"/>
+    <br><img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/91d3b8f7036dde409c4c78416df474dce2b436d5/PI_WinSCP_Login.png" alt="WinSCP_Login"/>
 </p>
 
 ---
@@ -288,13 +288,12 @@
             - Username: Your ID
             - Password: Your password
 
-        # PI Comand line
+        # PI Comand line (Update pi if needed "sudo apt update && sudo apt upgrade -y")
         - Locate The copied file .deb (Use below command)
-
         
             > ls (Pi folders)
 
-            > cd Downloads (Copied file folder)
+            > cd Downloads (Copied file folder: you can "cd" where you have copied the ".deb" file)
             
             > ls (You will see .deb file Ex: codesyscontrol_raspberry_4.15.0.0_all.deb)
             
@@ -304,7 +303,7 @@
 
             > cd (Come back to Starting section)
 
-            > sudo systemctl start codesyscontrol (manual Start PLC Runtime #it will show Active)
+            > sudo systemctl start codesyscontrol (manual Start PLC Runtime)
 
             > sudo systemctl status codesyscontrol (#it will show Active)
 
@@ -317,8 +316,10 @@
   # Congrats you have successfully installed CODESYS Runtime into your pi 5
     
   </details>
+</details>
 
-  &nbsp;&nbsp;&nbsp;&nbsp;
+---
+
   <details>
     <summary>Create a New PLC Project</summary>
     
@@ -326,6 +327,30 @@
       Select device:
         CODESYS Control for Raspberry Pi 64 SL (64 bit)
         Choose programming language: Ladder Diagram (LD), ST, etc.
+  ---
+
+<p>
+    <sub>Project Creation: Go to: File → New Project → Standard Project</sub><br/>&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <br><img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/1ec99bd8bdcba4a6efd4127dde1adea9aa2e219c/PI_CODESYS_Project_Creation.png" alt="WinSCP_Login"/>
+</p>
+
+---
+
+<p>
+    <sub>Select the Device :<br> If no Hardware : WIN v3 64 <br> If using pi 64 : pi 64 SL </sub><br/>&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <br><img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/1ec99bd8bdcba4a6efd4127dde1adea9aa2e219c/PI_CODESYS_Project_Hardware_v.png" alt="WinSCp_Copy"/>
+</p>
+
+---
+
+<p>
+    <sub>Choose the logic lagnuage: I'm using "LD"</sub><br/>&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <br><img src="https://github.com/AbdulkarimGit-Tech/Raspberry-Pi-PLC/blob/1ec99bd8bdcba4a6efd4127dde1adea9aa2e219c/PI_CODESYS_Project_language.png" alt="WinSCP_Copied"/>
+</p>
+
 
   # Setup PLC Development Environment
 
@@ -362,8 +387,6 @@
 
     
   </details>
-
-</details>
 
 ---
 
