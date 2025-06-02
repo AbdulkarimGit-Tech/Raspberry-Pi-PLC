@@ -699,4 +699,9 @@
 
 ---
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
 <!-- Proudly built with real-world hands-on experience. Engineering Automation, One Project at a Time. -->
