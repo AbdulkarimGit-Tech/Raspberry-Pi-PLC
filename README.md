@@ -14,7 +14,7 @@
 
 ---
 
-## 💼 Table of Contents :
+## 💼 Table of Contents : Please click to expand
 
 <details>
   <summary>Hardwares List</summary>
