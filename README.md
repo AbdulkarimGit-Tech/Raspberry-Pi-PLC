@@ -688,7 +688,7 @@
 
 ## 💡 GitHub Repositories
 
-- [AbdulkarimGit-Tech](https://github.com/AbdulkarimGit-Tech/AbdulkarimGit-Tech) – Main Repositories
+- [Upcoming](https://github.com/AbdulkarimGit-Tech) – Upcoming Project Repositories
 
 
 ---
@@ -701,7 +701,7 @@
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+[![License: MIT](https://img.shields.io/badge/License-MIT-purple.svg)](LICENSE)
 
 
 <!-- Proudly built with real-world hands-on experience. Engineering Automation, One Project at a Time. -->
