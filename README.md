@@ -605,9 +605,9 @@
 <table>
   <thead>
     <tr>
-      <th>Connection</th>
+      <th>Connector</th>
       <th></th>
-      <th>Connection</th>
+      <th>Connected</th>
       <th></th>
     </tr>
   </thead>
