@@ -653,9 +653,11 @@
 
 ## 🔌 Tech Stack
 
-### PLC & SCADA
+### PLC & HMI
+
 ![CODESYS](https://img.shields.io/badge/CODESYS-red?style=flat)
-![HMI](https://img.shields.io/badge/CODESYS-red?style=flat)
+![HMI](https://img.shields.io/badge/HMI-blue?style=flat)
+
 
 
 ### Programming Languages
