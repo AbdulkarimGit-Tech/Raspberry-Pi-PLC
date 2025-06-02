@@ -688,7 +688,7 @@
 
 ## 💡 GitHub Repositories
 
-- [Upcoming](https://github.com/AbdulkarimGit-Tech) – Upcoming Project Repositories
+- [Upcoming](https://github.com/AbdulkarimGit-Tech?tab=repositories) – Upcoming Project Repositories
 
 
 ---
